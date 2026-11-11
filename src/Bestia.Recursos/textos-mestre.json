@@ -1,0 +1,1492 @@
+{
+  "Comum_Cancelar": {
+    "pt-BR": "Cancelar",
+    "en": "Cancel",
+    "es": "Cancelar"
+  },
+  "Comum_Enviar": {
+    "pt-BR": "Enviar",
+    "en": "Submit",
+    "es": "Enviar"
+  },
+  "Comum_Idioma": {
+    "pt-BR": "Idioma",
+    "en": "Language",
+    "es": "Idioma"
+  },
+  "Comum_Nao": {
+    "pt-BR": "Não",
+    "en": "No",
+    "es": "No"
+  },
+  "Comum_NomeDoJogo": {
+    "pt-BR": "Taverna Bestia",
+    "en": "Bestia Tavern",
+    "es": "Taberna Bestia"
+  },
+  "Comum_Privacidade": {
+    "pt-BR": "Política de privacidade",
+    "en": "Privacy policy",
+    "es": "Política de privacidad"
+  },
+  "Comum_SaltarParaOConteudo": {
+    "pt-BR": "Ir para o conteúdo",
+    "en": "Skip to content",
+    "es": "Ir al contenido"
+  },
+  "Comum_Salvar": {
+    "pt-BR": "Salvar",
+    "en": "Save",
+    "es": "Guardar"
+  },
+  "Comum_Sim": {
+    "pt-BR": "Sim",
+    "en": "Yes",
+    "es": "Sí"
+  },
+  "Comum_Slogan": {
+    "pt-BR": "Cartas, fichas e uma caneca na mão.",
+    "en": "Cards, chips and a mug in hand.",
+    "es": "Cartas, fichas y una jarra en la mano."
+  },
+  "Comum_Termos": {
+    "pt-BR": "Termos de uso",
+    "en": "Terms of use",
+    "es": "Términos de uso"
+  },
+  "Comum_Voltar": {
+    "pt-BR": "Voltar",
+    "en": "Back",
+    "es": "Volver"
+  },
+  "Config_Acessibilidade": {
+    "pt-BR": "Acessibilidade",
+    "en": "Accessibility",
+    "es": "Accesibilidad"
+  },
+  "Config_Idioma": {
+    "pt-BR": "Idioma",
+    "en": "Language",
+    "es": "Idioma"
+  },
+  "Config_IrParaPrivacidade": {
+    "pt-BR": "Gerenciar meus dados",
+    "en": "Manage my data",
+    "es": "Gestionar mis datos"
+  },
+  "Config_Privacidade": {
+    "pt-BR": "Privacidade e dados",
+    "en": "Privacy and data",
+    "es": "Privacidad y datos"
+  },
+  "Config_ReduzirAnimacoes": {
+    "pt-BR": "Reduzir animações",
+    "en": "Reduce animations",
+    "es": "Reducir animaciones"
+  },
+  "Conta_AceitoTermos": {
+    "pt-BR": "Li e aceito os Termos de uso e a Política de privacidade.",
+    "en": "I have read and accept the Terms of use and the Privacy policy.",
+    "es": "He leído y acepto los Términos de uso y la Política de privacidad."
+  },
+  "Conta_Apelido": {
+    "pt-BR": "Apelido",
+    "en": "Nickname",
+    "es": "Apodo"
+  },
+  "Conta_CadastroEnviado": {
+    "pt-BR": "Conta criada! Enviamos um link de confirmação para o seu e-mail.",
+    "en": "Account created! We sent a confirmation link to your email.",
+    "es": "¡Cuenta creada! Enviamos un enlace de confirmación a tu correo."
+  },
+  "Conta_ConfirmarEmailAviso": {
+    "pt-BR": "Confirme seu e-mail para poder entrar em uma sala. Enviamos um link para a sua caixa de entrada.",
+    "en": "Confirm your email to join a room. We sent a link to your inbox.",
+    "es": "Confirma tu correo para entrar en una sala. Enviamos un enlace a tu bandeja de entrada."
+  },
+  "Conta_ConfirmarEmailOk": {
+    "pt-BR": "E-mail confirmado. Já pode jogar!",
+    "en": "Email confirmed. You can play now!",
+    "es": "Correo confirmado. ¡Ya puedes jugar!"
+  },
+  "Conta_ConfirmarEmailTitulo": {
+    "pt-BR": "Confirmação de e-mail",
+    "en": "Email confirmation",
+    "es": "Confirmación de correo"
+  },
+  "Conta_CriarConta": {
+    "pt-BR": "Criar conta",
+    "en": "Create account",
+    "es": "Crear cuenta"
+  },
+  "Conta_DeclaroMaioridade": {
+    "pt-BR": "Declaro ter 18 anos ou mais.",
+    "en": "I declare that I am 18 or older.",
+    "es": "Declaro tener 18 años o más."
+  },
+  "Conta_Email": {
+    "pt-BR": "E-mail",
+    "en": "Email",
+    "es": "Correo electrónico"
+  },
+  "Conta_Entrar": {
+    "pt-BR": "Entrar",
+    "en": "Sign in",
+    "es": "Entrar"
+  },
+  "Conta_EntrarComGoogle": {
+    "pt-BR": "Entrar com Google",
+    "en": "Sign in with Google",
+    "es": "Entrar con Google"
+  },
+  "Conta_EntrarNaTaverna": {
+    "pt-BR": "Entrar na taverna",
+    "en": "Enter the tavern",
+    "es": "Entrar en la taberna"
+  },
+  "Conta_EsqueciSenha": {
+    "pt-BR": "Esqueci minha senha",
+    "en": "I forgot my password",
+    "es": "Olvidé mi contraseña"
+  },
+  "Conta_EsqueciSenhaEnviado": {
+    "pt-BR": "Se o e-mail existir, enviamos as instruções.",
+    "en": "If the email exists, we sent the instructions.",
+    "es": "Si el correo existe, enviamos las instrucciones."
+  },
+  "Conta_EsqueciSenhaTitulo": {
+    "pt-BR": "Recuperar senha",
+    "en": "Recover password",
+    "es": "Recuperar contraseña"
+  },
+  "Conta_JaTenhoConta": {
+    "pt-BR": "Já tenho conta",
+    "en": "I already have an account",
+    "es": "Ya tengo cuenta"
+  },
+  "Conta_NaoTenhoConta": {
+    "pt-BR": "Ainda não tenho conta",
+    "en": "I do not have an account yet",
+    "es": "Aún no tengo cuenta"
+  },
+  "Conta_NovaSenha": {
+    "pt-BR": "Nova senha",
+    "en": "New password",
+    "es": "Nueva contraseña"
+  },
+  "Conta_RedefinirSenhaOk": {
+    "pt-BR": "Senha alterada. Entre com a nova senha.",
+    "en": "Password changed. Sign in with your new password.",
+    "es": "Contraseña cambiada. Entra con tu nueva contraseña."
+  },
+  "Conta_RedefinirSenhaTitulo": {
+    "pt-BR": "Redefinir senha",
+    "en": "Reset password",
+    "es": "Restablecer contraseña"
+  },
+  "Conta_Senha": {
+    "pt-BR": "Senha",
+    "en": "Password",
+    "es": "Contraseña"
+  },
+  "Conta_SenhaDica": {
+    "pt-BR": "Mínimo de 10 caracteres.",
+    "en": "At least 10 characters.",
+    "es": "Mínimo de 10 caracteres."
+  },
+  "Conta_TermosGoogleTexto": {
+    "pt-BR": "Escolha um apelido e aceite os termos para concluir o cadastro com a sua conta Google.",
+    "en": "Choose a nickname and accept the terms to finish signing up with your Google account.",
+    "es": "Elige un apodo y acepta los términos para terminar el registro con tu cuenta de Google."
+  },
+  "Conta_TermosGoogleTitulo": {
+    "pt-BR": "Quase lá",
+    "en": "Almost there",
+    "es": "Casi listo"
+  },
+  "Email_Confirmacao_Assunto": {
+    "pt-BR": "Confirme seu e-mail na Taverna Bestia",
+    "en": "Confirm your email at Bestia Tavern",
+    "es": "Confirma tu correo en la Taberna Bestia"
+  },
+  "Email_Confirmacao_Corpo": {
+    "pt-BR": "Bem-vindo à taverna! Confirme seu e-mail neste link (vale por 24 horas): {0}",
+    "en": "Welcome to the tavern! Confirm your email with this link (valid for 24 hours): {0}",
+    "es": "¡Bienvenido a la taberna! Confirma tu correo con este enlace (válido por 24 horas): {0}"
+  },
+  "Email_Inatividade_Assunto": {
+    "pt-BR": "Sua conta na Taverna Bestia será excluída por inatividade",
+    "en": "Your Bestia Tavern account will be deleted for inactivity",
+    "es": "Tu cuenta en la Taberna Bestia será eliminada por inactividad"
+  },
+  "Email_Inatividade_Corpo": {
+    "pt-BR": "Sua conta está sem acesso há muito tempo. Entre nos próximos {0} dias para mantê-la; caso contrário, ela será excluída.",
+    "en": "Your account has not been used for a long time. Sign in within the next {0} days to keep it; otherwise it will be deleted.",
+    "es": "Tu cuenta lleva mucho tiempo sin acceso. Entra en los próximos {0} días para conservarla; de lo contrario, será eliminada."
+  },
+  "Email_Redefinicao_Assunto": {
+    "pt-BR": "Redefinição de senha da Taverna Bestia",
+    "en": "Bestia Tavern password reset",
+    "es": "Restablecimiento de contraseña de la Taberna Bestia"
+  },
+  "Email_Redefinicao_Corpo": {
+    "pt-BR": "Para criar uma nova senha, use este link (vale por 1 hora): {0}. Se não foi você, ignore esta mensagem.",
+    "en": "To set a new password, use this link (valid for 1 hour): {0}. If it was not you, ignore this message.",
+    "es": "Para crear una nueva contraseña, usa este enlace (válido por 1 hora): {0}. Si no fuiste tú, ignora este mensaje."
+  },
+  "Emote_Choro": {
+    "pt-BR": "Choro",
+    "en": "Cry",
+    "es": "Llanto"
+  },
+  "Emote_Gelado": {
+    "pt-BR": "Gelado",
+    "en": "Frozen",
+    "es": "Congelado"
+  },
+  "Emote_Impressionado": {
+    "pt-BR": "Impressionado",
+    "en": "Impressed",
+    "es": "Impresionado"
+  },
+  "Emote_Raiva": {
+    "pt-BR": "Raiva",
+    "en": "Anger",
+    "es": "Enojo"
+  },
+  "Emote_Risada": {
+    "pt-BR": "Risada",
+    "en": "Laugh",
+    "es": "Risa"
+  },
+  "Erro_AcaoForaDeHora": {
+    "pt-BR": "Essa ação não é possível agora.",
+    "en": "That action is not possible right now.",
+    "es": "Esa acción no es posible ahora."
+  },
+  "Erro_AceiteObrigatorio": {
+    "pt-BR": "É preciso aceitar os Termos e a Política de privacidade.",
+    "en": "You must accept the Terms and the Privacy policy.",
+    "es": "Debes aceptar los Términos y la Política de privacidad."
+  },
+  "Erro_ApelidoEmUso": {
+    "pt-BR": "Esse apelido já está em uso.",
+    "en": "That nickname is already taken.",
+    "es": "Ese apodo ya está en uso."
+  },
+  "Erro_ApelidoInvalido": {
+    "pt-BR": "O apelido deve ter de 3 a 16 caracteres.",
+    "en": "The nickname must have 3 to 16 characters.",
+    "es": "El apodo debe tener de 3 a 16 caracteres."
+  },
+  "Erro_BauInexistente": {
+    "pt-BR": "Esse baú não existe.",
+    "en": "That chest does not exist.",
+    "es": "Ese cofre no existe."
+  },
+  "Erro_BauJaPego": {
+    "pt-BR": "Esse baú já foi pego.",
+    "en": "That chest was already taken.",
+    "es": "Ese cofre ya fue tomado."
+  },
+  "Erro_CartaNaoEhSua": {
+    "pt-BR": "Essa carta não está na sua mão.",
+    "en": "That card is not in your hand.",
+    "es": "Esa carta no está en tu mano."
+  },
+  "Erro_ContaNaoEncontrada": {
+    "pt-BR": "Conta não encontrada.",
+    "en": "Account not found.",
+    "es": "Cuenta no encontrada."
+  },
+  "Erro_CredenciaisInvalidas": {
+    "pt-BR": "E-mail ou senha inválidos.",
+    "en": "Invalid email or password.",
+    "es": "Correo o contraseña no válidos."
+  },
+  "Erro_DeveSeguirONaipe": {
+    "pt-BR": "Você tem carta do naipe da rodada e precisa jogá-la.",
+    "en": "You hold a card of the round's suit and must play it.",
+    "es": "Tienes una carta del palo de la ronda y debes jugarla."
+  },
+  "Erro_EmailEmUso": {
+    "pt-BR": "Esse e-mail já está cadastrado.",
+    "en": "That email is already registered.",
+    "es": "Ese correo ya está registrado."
+  },
+  "Erro_EmailInvalido": {
+    "pt-BR": "E-mail inválido.",
+    "en": "Invalid email.",
+    "es": "Correo no válido."
+  },
+  "Erro_EmailNaoConfirmado": {
+    "pt-BR": "Confirme seu e-mail para entrar em uma sala.",
+    "en": "Confirm your email to join a room.",
+    "es": "Confirma tu correo para entrar en una sala."
+  },
+  "Erro_EmoteMuitoRapido": {
+    "pt-BR": "Calma! Espere um instante para enviar outro emote.",
+    "en": "Easy! Wait a moment before sending another emote.",
+    "es": "¡Calma! Espera un momento para enviar otro emote."
+  },
+  "Erro_FichasInsuficientes": {
+    "pt-BR": "Você não tem fichas para cobrir o montante.",
+    "en": "You do not have enough chips to cover the pot.",
+    "es": "No tienes fichas para cubrir el bote."
+  },
+  "Erro_Generico": {
+    "pt-BR": "Algo deu errado. Tente novamente.",
+    "en": "Something went wrong. Please try again.",
+    "es": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "Erro_GoogleEmailNaoVerificado": {
+    "pt-BR": "O e-mail da sua conta Google não está verificado.",
+    "en": "Your Google account email is not verified.",
+    "es": "El correo de tu cuenta de Google no está verificado."
+  },
+  "Erro_JaEstaEmSala": {
+    "pt-BR": "Você já está em uma sala.",
+    "en": "You are already in a room.",
+    "es": "Ya estás en una sala."
+  },
+  "Erro_JogadorForaDaPartida": {
+    "pt-BR": "Você não está mais na partida.",
+    "en": "You are no longer in the game.",
+    "es": "Ya no estás en la partida."
+  },
+  "Erro_JogadoresInsuficientes": {
+    "pt-BR": "São necessários ao menos 3 jogadores.",
+    "en": "At least 3 players are needed.",
+    "es": "Se necesitan al menos 3 jugadores."
+  },
+  "Erro_MaioridadeObrigatoria": {
+    "pt-BR": "É preciso ter 18 anos ou mais.",
+    "en": "You must be 18 or older.",
+    "es": "Debes tener 18 años o más."
+  },
+  "Erro_NaoEhSuaVez": {
+    "pt-BR": "Não é a sua vez.",
+    "en": "It is not your turn.",
+    "es": "No es tu turno."
+  },
+  "Erro_NaoEncontrada": {
+    "pt-BR": "Página não encontrada.",
+    "en": "Page not found.",
+    "es": "Página no encontrada."
+  },
+  "Erro_NaoEstaEmSala": {
+    "pt-BR": "Você não está em uma sala.",
+    "en": "You are not in a room.",
+    "es": "No estás en una sala."
+  },
+  "Erro_ObrigadoAFicar": {
+    "pt-BR": "Quem pegou um baú é obrigado a ficar.",
+    "en": "Whoever takes a chest must stay.",
+    "es": "Quien toma un cofre está obligado a quedarse."
+  },
+  "Erro_OperacaoRequerSenha": {
+    "pt-BR": "Esta operação exige uma conta com senha.",
+    "en": "This operation requires an account with a password.",
+    "es": "Esta operación requiere una cuenta con contraseña."
+  },
+  "Erro_PartidaEmAndamento": {
+    "pt-BR": "A partida já começou.",
+    "en": "The game has already started.",
+    "es": "La partida ya comenzó."
+  },
+  "Erro_ProximoDistribuidorNaoPodeSair": {
+    "pt-BR": "O próximo distribuidor não pode sair da mesa.",
+    "en": "The next dealer cannot leave the table.",
+    "es": "El próximo repartidor no puede dejar la mesa."
+  },
+  "Erro_SalaCheia": {
+    "pt-BR": "A sala está cheia.",
+    "en": "The room is full.",
+    "es": "La sala está llena."
+  },
+  "Erro_SalaInvalida": {
+    "pt-BR": "Dados da sala inválidos.",
+    "en": "Invalid room data.",
+    "es": "Datos de la sala no válidos."
+  },
+  "Erro_SalaNaoEncontrada": {
+    "pt-BR": "Sala não encontrada.",
+    "en": "Room not found.",
+    "es": "Sala no encontrada."
+  },
+  "Erro_SenhaFraca": {
+    "pt-BR": "Senha fraca: use ao menos 10 caracteres e evite senhas comuns.",
+    "en": "Weak password: use at least 10 characters and avoid common passwords.",
+    "es": "Contraseña débil: usa al menos 10 caracteres y evita contraseñas comunes."
+  },
+  "Erro_SenhaIncorreta": {
+    "pt-BR": "Senha incorreta.",
+    "en": "Wrong password.",
+    "es": "Contraseña incorrecta."
+  },
+  "Erro_SomenteOCriador": {
+    "pt-BR": "Só quem criou a sala pode fazer isso.",
+    "en": "Only the room creator can do that.",
+    "es": "Solo quien creó la sala puede hacerlo."
+  },
+  "Erro_TaxaDoBauSemFichas": {
+    "pt-BR": "Faltam fichas para pagar a taxa do segundo baú.",
+    "en": "Not enough chips to pay the second chest fee.",
+    "es": "Faltan fichas para pagar la tasa del segundo cofre."
+  },
+  "Erro_Titulo": {
+    "pt-BR": "Ops!",
+    "en": "Oops!",
+    "es": "¡Ups!"
+  },
+  "Erro_TokenInvalido": {
+    "pt-BR": "Link inválido ou expirado.",
+    "en": "Invalid or expired link.",
+    "es": "Enlace no válido o caducado."
+  },
+  "Legal_Encarregado": {
+    "pt-BR": "Contato do encarregado de dados: {0}",
+    "en": "Data protection officer contact: {0}",
+    "es": "Contacto del encargado de datos: {0}"
+  },
+  "Legal_Privacidade1": {
+    "pt-BR": "Coletamos o mínimo necessário: apelido, e-mail, senha (guardada só como hash), idioma, aceites dos termos e registros de acesso. Não coletamos telefone, CPF, endereço, localização ou dados de pagamento.",
+    "en": "We collect the minimum necessary: nickname, email, password (stored only as a hash), language, terms acceptances and access logs. We do not collect phone, tax ID, address, location or payment data.",
+    "es": "Recopilamos lo mínimo necesario: apodo, correo, contraseña (guardada solo como hash), idioma, aceptaciones de los términos y registros de acceso. No recopilamos teléfono, documento, dirección, ubicación ni datos de pago."
+  },
+  "Legal_Privacidade2": {
+    "pt-BR": "Seus dados pessoais são criptografados no banco de dados e usados apenas para operar o jogo: entrar na conta, recuperar a senha e mostrar seu apelido na mesa.",
+    "en": "Your personal data is encrypted in the database and used only to run the game: signing in, recovering your password and showing your nickname at the table.",
+    "es": "Tus datos personales se cifran en la base de datos y se usan solo para operar el juego: entrar a la cuenta, recuperar la contraseña y mostrar tu apodo en la mesa."
+  },
+  "Legal_Privacidade3": {
+    "pt-BR": "Usamos só cookies essenciais (sessão, idioma e proteção contra falsificação de formulários). Não há cookies de análise nem de publicidade.",
+    "en": "We use only essential cookies (session, language and form forgery protection). There are no analytics or advertising cookies.",
+    "es": "Usamos solo cookies esenciales (sesión, idioma y protección contra falsificación de formularios). No hay cookies de análisis ni de publicidad."
+  },
+  "Legal_Privacidade4": {
+    "pt-BR": "Registros de acesso (IP e data) são guardados por 6 meses por obrigação legal. Contas inativas por 24 meses são avisadas e excluídas.",
+    "en": "Access logs (IP and date) are kept for 6 months due to legal obligation. Accounts inactive for 24 months are warned and deleted.",
+    "es": "Los registros de acceso (IP y fecha) se guardan por 6 meses por obligación legal. Las cuentas inactivas por 24 meses se avisan y se eliminan."
+  },
+  "Legal_Privacidade5": {
+    "pt-BR": "Você pode, a qualquer momento: ver e baixar seus dados, corrigir apelido e e-mail, revogar consentimentos e excluir a conta, em Configurações > Privacidade.",
+    "en": "You may at any time: view and download your data, correct nickname and email, withdraw consents and delete your account, under Settings > Privacy.",
+    "es": "Puedes en cualquier momento: ver y descargar tus datos, corregir apodo y correo, revocar consentimientos y eliminar la cuenta, en Configuración > Privacidad."
+  },
+  "Legal_Privacidade6": {
+    "pt-BR": "Ao excluir a conta, seu apelido e e-mail são apagados e você aparece como \"Jogador removido\" no histórico das partidas dos outros jogadores.",
+    "en": "When you delete your account, your nickname and email are erased and you appear as \"Removed player\" in other players' game history.",
+    "es": "Al eliminar la cuenta, tu apodo y correo se borran y apareces como \"Jugador eliminado\" en el historial de las partidas de los demás."
+  },
+  "Legal_Privacidade7": {
+    "pt-BR": "Operadores que tratam dados em nosso nome: provedor de hospedagem, provedor de e-mail e, se você escolher, o Google para o login.",
+    "en": "Operators processing data on our behalf: hosting provider, email provider and, if you choose, Google for sign-in.",
+    "es": "Operadores que tratan datos en nuestro nombre: proveedor de alojamiento, proveedor de correo y, si lo eliges, Google para el inicio de sesión."
+  },
+  "Legal_PrivacidadeTitulo": {
+    "pt-BR": "Política de privacidade",
+    "en": "Privacy policy",
+    "es": "Política de privacidad"
+  },
+  "Legal_RevisaoJuridica": {
+    "pt-BR": "Texto de referência da versão 1.0, sujeito a revisão jurídica antes da publicação.",
+    "en": "Reference text of version 1.0, subject to legal review before publication.",
+    "es": "Texto de referencia de la versión 1.0, sujeto a revisión jurídica antes de su publicación."
+  },
+  "Legal_Termos1": {
+    "pt-BR": "A Taverna Bestia é um jogo de cartas online para maiores de 18 anos. As fichas são pontos do jogo, sem valor monetário nem conversão em dinheiro.",
+    "en": "Bestia Tavern is an online card game for people aged 18 or over. Chips are game points, with no monetary value and no cash conversion.",
+    "es": "La Taberna Bestia es un juego de cartas en línea para mayores de 18 años. Las fichas son puntos del juego, sin valor monetario ni conversión en dinero."
+  },
+  "Legal_Termos2": {
+    "pt-BR": "Você é responsável por manter sua senha em segredo e pelas ações feitas com a sua conta.",
+    "en": "You are responsible for keeping your password secret and for actions taken with your account.",
+    "es": "Eres responsable de mantener tu contraseña en secreto y de las acciones realizadas con tu cuenta."
+  },
+  "Legal_Termos3": {
+    "pt-BR": "É proibido trapacear, usar programas automáticos, combinar jogadas com outras pessoas ou assediar outros jogadores.",
+    "en": "Cheating, using automated programs, colluding with others or harassing other players is forbidden.",
+    "es": "Está prohibido hacer trampa, usar programas automáticos, confabularse con otras personas o acosar a otros jugadores."
+  },
+  "Legal_Termos4": {
+    "pt-BR": "Podemos suspender contas que violem estes termos. Você pode excluir sua conta a qualquer momento em Configurações.",
+    "en": "We may suspend accounts that violate these terms. You can delete your account at any time in Settings.",
+    "es": "Podemos suspender cuentas que violen estos términos. Puedes eliminar tu cuenta en cualquier momento en Configuración."
+  },
+  "Legal_Termos5": {
+    "pt-BR": "O serviço é oferecido como está, sem garantia de disponibilidade contínua.",
+    "en": "The service is provided as is, with no guarantee of continuous availability.",
+    "es": "El servicio se ofrece tal cual, sin garantía de disponibilidad continua."
+  },
+  "Legal_TermosTitulo": {
+    "pt-BR": "Termos de uso",
+    "en": "Terms of use",
+    "es": "Términos de uso"
+  },
+  "Menu_Abrir": {
+    "pt-BR": "Abrir menu",
+    "en": "Open menu",
+    "es": "Abrir menú"
+  },
+  "Menu_Configuracoes": {
+    "pt-BR": "Configurações",
+    "en": "Settings",
+    "es": "Configuración"
+  },
+  "Menu_IniciarPartida": {
+    "pt-BR": "Iniciar partida",
+    "en": "Start game",
+    "es": "Iniciar partida"
+  },
+  "Menu_MeuPerfil": {
+    "pt-BR": "Meu perfil",
+    "en": "My profile",
+    "es": "Mi perfil"
+  },
+  "Menu_Regras": {
+    "pt-BR": "Regras do jogo",
+    "en": "Game rules",
+    "es": "Reglas del juego"
+  },
+  "Menu_Sair": {
+    "pt-BR": "Sair",
+    "en": "Sign out",
+    "es": "Salir"
+  },
+  "Menu_Salas": {
+    "pt-BR": "Salas",
+    "en": "Rooms",
+    "es": "Salas"
+  },
+  "Partida_AvisoVirada": {
+    "pt-BR": "Carta jogada por ausência (virada para baixo)",
+    "en": "Card played because of absence (face down)",
+    "es": "Carta jugada por ausencia (boca abajo)"
+  },
+  "Partida_Bau": {
+    "pt-BR": "🧰 Baú {0}",
+    "en": "🧰 Chest {0}",
+    "es": "🧰 Cofre {0}"
+  },
+  "Partida_BauTaxa": {
+    "pt-BR": "🧰 Baú {0} (+{1})",
+    "en": "🧰 Chest {0} (+{1})",
+    "es": "🧰 Cofre {0} (+{1})"
+  },
+  "Partida_ClassificacaoFichas": {
+    "pt-BR": "Fichas",
+    "en": "Chips",
+    "es": "Fichas"
+  },
+  "Partida_ClassificacaoJogador": {
+    "pt-BR": "Jogador",
+    "en": "Player",
+    "es": "Jugador"
+  },
+  "Partida_ConfirmarSaida": {
+    "pt-BR": "Sair da mesa agora faz você desistir das suas fichas. Sair mesmo?",
+    "en": "Leaving the table now gives up your chips. Leave anyway?",
+    "es": "Salir de la mesa ahora implica renunciar a tus fichas. ¿Salir de todas formas?"
+  },
+  "Partida_Correr": {
+    "pt-BR": "Correr",
+    "en": "Fold",
+    "es": "Correr"
+  },
+  "Partida_Diario": {
+    "pt-BR": "Diário da mesa",
+    "en": "Table log",
+    "es": "Diario de la mesa"
+  },
+  "Partida_DiarioBau": {
+    "pt-BR": "{0} pega o baú {1}.",
+    "en": "{0} takes chest {1}.",
+    "es": "{0} toma el cofre {1}."
+  },
+  "Partida_DiarioCorre": {
+    "pt-BR": "{0} corre.",
+    "en": "{0} folds.",
+    "es": "{0} corre."
+  },
+  "Partida_DiarioDesistiu": {
+    "pt-BR": "{0} desistiu e sai ao fim da mão.",
+    "en": "{0} gave up and leaves at the end of the hand.",
+    "es": "{0} se retiró y sale al final de la mano."
+  },
+  "Partida_DiarioFica": {
+    "pt-BR": "{0} fica.",
+    "en": "{0} stays.",
+    "es": "{0} se queda."
+  },
+  "Partida_DiarioFim": {
+    "pt-BR": "Fim da partida! {0} terminou na frente.",
+    "en": "Game over! {0} finished ahead.",
+    "es": "¡Fin de la partida! {0} terminó al frente."
+  },
+  "Partida_DiarioInatividade": {
+    "pt-BR": "🚪 {0} foi eliminado por inatividade.",
+    "en": "🚪 {0} was eliminated for inactivity.",
+    "es": "🚪 {0} fue eliminado por inactividad."
+  },
+  "Partida_DiarioInicio": {
+    "pt-BR": "Sorteio: {0} distribui a primeira mão.",
+    "en": "Draw: {0} deals the first hand.",
+    "es": "Sorteo: {0} reparte la primera mano."
+  },
+  "Partida_DiarioMao": {
+    "pt-BR": "Mão {0}: {1} distribui e coloca 3 fichas. Montante: {2}.",
+    "en": "Hand {0}: {1} deals and puts in 3 chips. Pot: {2}.",
+    "es": "Mano {0}: {1} reparte y pone 3 fichas. Bote: {2}."
+  },
+  "Partida_DiarioReposicao": {
+    "pt-BR": "{0} perdeu as 3 rodadas e repõe {1} fichas.",
+    "en": "{0} lost all 3 rounds and puts back {1} chips.",
+    "es": "{0} perdió las 3 rondas y repone {1} fichas."
+  },
+  "Partida_DiarioRodada": {
+    "pt-BR": "Rodada {0}: {1} vence com {2} (+{3}).",
+    "en": "Round {0}: {1} wins with {2} (+{3}).",
+    "es": "Ronda {0}: {1} gana con {2} (+{3})."
+  },
+  "Partida_DiarioSaiu": {
+    "pt-BR": "{0} saiu da partida.",
+    "en": "{0} left the game.",
+    "es": "{0} salió de la partida."
+  },
+  "Partida_DiarioSemFichas": {
+    "pt-BR": "{0} ficou sem fichas e saiu da partida.",
+    "en": "{0} ran out of chips and left the game.",
+    "es": "{0} se quedó sin fichas y salió de la partida."
+  },
+  "Partida_DiarioTaxa": {
+    "pt-BR": "{0} paga {1} fichas pelo segundo baú. Montante: {2}.",
+    "en": "{0} pays {1} chips for the second chest. Pot: {2}.",
+    "es": "{0} paga {1} fichas por el segundo cofre. Bote: {2}."
+  },
+  "Partida_DiarioTempoDecisao": {
+    "pt-BR": "⏰ Tempo esgotado para {0} decidir.",
+    "en": "⏰ Time ran out for {0} to decide.",
+    "es": "⏰ Se acabó el tiempo de {0} para decidir."
+  },
+  "Partida_DiarioTempoJogada": {
+    "pt-BR": "⏰ {0} ficou ausente: carta jogada virada para baixo.",
+    "en": "⏰ {0} was away: card played face down.",
+    "es": "⏰ {0} estuvo ausente: carta jugada boca abajo."
+  },
+  "Partida_DiarioTodosCorreram": {
+    "pt-BR": "Todos correram. {0} leva o montante de {1}.",
+    "en": "Everyone folded. {0} takes the pot of {1}.",
+    "es": "Todos corrieron. {0} se lleva el bote de {1}."
+  },
+  "Partida_DiarioUnico": {
+    "pt-BR": "{0} foi o único a ficar e leva {1} sem jogar.",
+    "en": "{0} was the only one to stay and takes {1} without playing.",
+    "es": "{0} fue el único en quedarse y se lleva {1} sin jugar."
+  },
+  "Partida_Emotes": {
+    "pt-BR": "Emotes",
+    "en": "Emotes",
+    "es": "Emotes"
+  },
+  "Partida_FecharRegras": {
+    "pt-BR": "Fechar",
+    "en": "Close",
+    "es": "Cerrar"
+  },
+  "Partida_Ficar": {
+    "pt-BR": "Ficar",
+    "en": "Stay",
+    "es": "Quedarse"
+  },
+  "Partida_FimSub": {
+    "pt-BR": "Restaram menos de 3 jogadores.",
+    "en": "Fewer than 3 players remain.",
+    "es": "Quedan menos de 3 jugadores."
+  },
+  "Partida_FimTitulo": {
+    "pt-BR": "Fim da partida",
+    "en": "Game over",
+    "es": "Fin de la partida"
+  },
+  "Partida_JogarComEstaMao": {
+    "pt-BR": "Jogar com esta mão",
+    "en": "Play this hand",
+    "es": "Jugar con esta mano"
+  },
+  "Partida_Mania": {
+    "pt-BR": "Mania",
+    "en": "Trump",
+    "es": "Triunfo"
+  },
+  "Partida_Mao": {
+    "pt-BR": "Mão {0} · {1} jogadores",
+    "en": "Hand {0} · {1} players",
+    "es": "Mano {0} · {1} jugadores"
+  },
+  "Partida_MontanteInfo": {
+    "pt-BR": "montante {0} (cada rodada vale {1})",
+    "en": "pot {0} (each round is worth {1})",
+    "es": "bote {0} (cada ronda vale {1})"
+  },
+  "Partida_RodadaAbre": {
+    "pt-BR": "Rodada {0} de 3 — {1} abre",
+    "en": "Round {0} of 3 — {1} opens",
+    "es": "Ronda {0} de 3 — abre {1}"
+  },
+  "Partida_Segundos": {
+    "pt-BR": "{0} s",
+    "en": "{0} s",
+    "es": "{0} s"
+  },
+  "Partida_TagAbre": {
+    "pt-BR": "abre",
+    "en": "opens",
+    "es": "abre"
+  },
+  "Partida_TagAusente": {
+    "pt-BR": "ausente",
+    "en": "away",
+    "es": "ausente"
+  },
+  "Partida_TagCorreu": {
+    "pt-BR": "correu",
+    "en": "folded",
+    "es": "corrió"
+  },
+  "Partida_TagDistribuidor": {
+    "pt-BR": "D",
+    "en": "D",
+    "es": "R"
+  },
+  "Partida_TagDoze": {
+    "pt-BR": "12h",
+    "en": "12 o'clock",
+    "es": "12h"
+  },
+  "Partida_TagFicou": {
+    "pt-BR": "ficou",
+    "en": "stays",
+    "es": "se quedó"
+  },
+  "Partida_TagPerdeu": {
+    "pt-BR": "✖ perdeu",
+    "en": "✖ lost",
+    "es": "✖ perdió"
+  },
+  "Partida_TagProximo": {
+    "pt-BR": "próximo",
+    "en": "next",
+    "es": "siguiente"
+  },
+  "Partida_TagVenceu": {
+    "pt-BR": "✔ venceu",
+    "en": "✔ won",
+    "es": "✔ ganó"
+  },
+  "Partida_TagVez": {
+    "pt-BR": "▶ vez",
+    "en": "▶ turn",
+    "es": "▶ turno"
+  },
+  "Partida_VenceuRodada": {
+    "pt-BR": "🏆 {0} venceu a rodada (+{1})",
+    "en": "🏆 {0} won the round (+{1})",
+    "es": "🏆 {0} ganó la ronda (+{1})"
+  },
+  "Partida_VezAbrir": {
+    "pt-BR": "👉 Sua vez: você abre a rodada. Escolha uma carta.",
+    "en": "👉 Your turn: you open the round. Pick a card.",
+    "es": "👉 Tu turno: abres la ronda. Elige una carta."
+  },
+  "Partida_VezBauPego": {
+    "pt-BR": "🧰 Você pegou um baú: estas são suas novas cartas e você é obrigado a ficar.",
+    "en": "🧰 You took a chest: these are your new cards and you must stay.",
+    "es": "🧰 Tomaste un cofre: estas son tus nuevas cartas y debes quedarte."
+  },
+  "Partida_VezDe": {
+    "pt-BR": "Vez de {0}",
+    "en": "{0}'s turn",
+    "es": "Turno de {0}"
+  },
+  "Partida_VezDecidir": {
+    "pt-BR": "👉 Sua vez: fica, corre ou pega um baú?",
+    "en": "👉 Your turn: stay, fold or take a chest?",
+    "es": "👉 Tu turno: ¿te quedas, corres o tomas un cofre?"
+  },
+  "Partida_VezDecidirSemBau": {
+    "pt-BR": "👉 Sua vez: fica ou corre?",
+    "en": "👉 Your turn: stay or fold?",
+    "es": "👉 Tu turno: ¿te quedas o corres?"
+  },
+  "Partida_VezJogar": {
+    "pt-BR": "👉 Sua vez: jogue uma carta.",
+    "en": "👉 Your turn: play a card.",
+    "es": "👉 Tu turno: juega una carta."
+  },
+  "Partida_VezSemFichas": {
+    "pt-BR": "👉 Sua vez: você não tem fichas para cobrir o montante ({0}). Só pode correr.",
+    "en": "👉 Your turn: you do not have chips to cover the pot ({0}). You can only fold.",
+    "es": "👉 Tu turno: no tienes fichas para cubrir el bote ({0}). Solo puedes correr."
+  },
+  "Partida_Voce": {
+    "pt-BR": "Você",
+    "en": "You",
+    "es": "Tú"
+  },
+  "Partida_VoceEliminado": {
+    "pt-BR": "Você foi eliminado por inatividade (não jogou nas 3 rodadas).",
+    "en": "You were eliminated for inactivity (no play in the 3 rounds).",
+    "es": "Fuiste eliminado por inactividad (no jugaste en las 3 rondas)."
+  },
+  "Partida_VoceSaiu": {
+    "pt-BR": "Você saiu da partida.",
+    "en": "You left the game.",
+    "es": "Saliste de la partida."
+  },
+  "Partida_VoceSemFichas": {
+    "pt-BR": "Você ficou com menos de 3 fichas e saiu da partida.",
+    "en": "You have fewer than 3 chips and left the game.",
+    "es": "Tienes menos de 3 fichas y saliste de la partida."
+  },
+  "Partida_VoceVenceuRodada": {
+    "pt-BR": "🏆 Você venceu a rodada (+{0})",
+    "en": "🏆 You won the round (+{0})",
+    "es": "🏆 Ganaste la ronda (+{0})"
+  },
+  "Perfil_Colocacao": {
+    "pt-BR": "Colocação",
+    "en": "Place",
+    "es": "Posición"
+  },
+  "Perfil_ColocacaoDe": {
+    "pt-BR": "{0}º de {1}",
+    "en": "{0} of {1}",
+    "es": "{0}º de {1}"
+  },
+  "Perfil_Data": {
+    "pt-BR": "Data",
+    "en": "Date",
+    "es": "Fecha"
+  },
+  "Perfil_Fichas": {
+    "pt-BR": "Fichas",
+    "en": "Chips",
+    "es": "Fichas"
+  },
+  "Perfil_Historico": {
+    "pt-BR": "Partidas recentes",
+    "en": "Recent games",
+    "es": "Partidas recientes"
+  },
+  "Perfil_Interrompida": {
+    "pt-BR": "Interrompida",
+    "en": "Interrupted",
+    "es": "Interrumpida"
+  },
+  "Perfil_Partidas": {
+    "pt-BR": "Partidas",
+    "en": "Games",
+    "es": "Partidas"
+  },
+  "Perfil_SemPartidas": {
+    "pt-BR": "Você ainda não jogou nenhuma partida.",
+    "en": "You have not played any games yet.",
+    "es": "Aún no has jugado ninguna partida."
+  },
+  "Perfil_Titulo": {
+    "pt-BR": "Perfil",
+    "en": "Profile",
+    "es": "Perfil"
+  },
+  "Perfil_Vitorias": {
+    "pt-BR": "Vitórias",
+    "en": "Wins",
+    "es": "Victorias"
+  },
+  "Privacidade_AlterarApelido": {
+    "pt-BR": "Alterar apelido",
+    "en": "Change nickname",
+    "es": "Cambiar apodo"
+  },
+  "Privacidade_AlterarEmail": {
+    "pt-BR": "Alterar e-mail",
+    "en": "Change email",
+    "es": "Cambiar correo"
+  },
+  "Privacidade_Apelido": {
+    "pt-BR": "Apelido",
+    "en": "Nickname",
+    "es": "Apodo"
+  },
+  "Privacidade_ApelidoAlterado": {
+    "pt-BR": "Apelido atualizado.",
+    "en": "Nickname updated.",
+    "es": "Apodo actualizado."
+  },
+  "Privacidade_BaixarMeusDados": {
+    "pt-BR": "Baixar meus dados (JSON)",
+    "en": "Download my data (JSON)",
+    "es": "Descargar mis datos (JSON)"
+  },
+  "Privacidade_Consentimentos": {
+    "pt-BR": "Consentimentos",
+    "en": "Consents",
+    "es": "Consentimientos"
+  },
+  "Privacidade_ContaExcluida": {
+    "pt-BR": "Conta excluída. Seus dados pessoais foram apagados.",
+    "en": "Account deleted. Your personal data was erased.",
+    "es": "Cuenta eliminada. Tus datos personales fueron borrados."
+  },
+  "Privacidade_CriadaEm": {
+    "pt-BR": "Conta criada em",
+    "en": "Account created on",
+    "es": "Cuenta creada el"
+  },
+  "Privacidade_Email": {
+    "pt-BR": "E-mail",
+    "en": "Email",
+    "es": "Correo electrónico"
+  },
+  "Privacidade_EmailAlterado": {
+    "pt-BR": "E-mail atualizado. Enviamos um link de confirmação para o novo endereço.",
+    "en": "Email updated. We sent a confirmation link to the new address.",
+    "es": "Correo actualizado. Enviamos un enlace de confirmación a la nueva dirección."
+  },
+  "Privacidade_EmailConfirmadoEm": {
+    "pt-BR": "E-mail confirmado em",
+    "en": "Email confirmed on",
+    "es": "Correo confirmado el"
+  },
+  "Privacidade_ExcluirAviso": {
+    "pt-BR": "Isso apaga seu e-mail, apelido e senha e não pode ser desfeito. O histórico das partidas fica anonimizado.",
+    "en": "This erases your email, nickname and password and cannot be undone. Game history becomes anonymous.",
+    "es": "Esto borra tu correo, apodo y contraseña y no se puede deshacer. El historial de partidas queda anonimizado."
+  },
+  "Privacidade_ExcluirBotao": {
+    "pt-BR": "Excluir minha conta",
+    "en": "Delete my account",
+    "es": "Eliminar mi cuenta"
+  },
+  "Privacidade_ExcluirComGoogle": {
+    "pt-BR": "Confirmar com o Google e excluir",
+    "en": "Confirm with Google and delete",
+    "es": "Confirmar con Google y eliminar"
+  },
+  "Privacidade_ExcluirTitulo": {
+    "pt-BR": "Excluir minha conta",
+    "en": "Delete my account",
+    "es": "Eliminar mi cuenta"
+  },
+  "Privacidade_Idioma": {
+    "pt-BR": "Idioma",
+    "en": "Language",
+    "es": "Idioma"
+  },
+  "Privacidade_Logins": {
+    "pt-BR": "Logins vinculados",
+    "en": "Linked sign-ins",
+    "es": "Inicios de sesión vinculados"
+  },
+  "Privacidade_MeusDados": {
+    "pt-BR": "Meus dados",
+    "en": "My data",
+    "es": "Mis datos"
+  },
+  "Privacidade_NovoApelido": {
+    "pt-BR": "Novo apelido",
+    "en": "New nickname",
+    "es": "Nuevo apodo"
+  },
+  "Privacidade_NovoEmail": {
+    "pt-BR": "Novo e-mail",
+    "en": "New email",
+    "es": "Nuevo correo"
+  },
+  "Privacidade_Nunca": {
+    "pt-BR": "—",
+    "en": "—",
+    "es": "—"
+  },
+  "Privacidade_Partidas": {
+    "pt-BR": "Partidas jogadas",
+    "en": "Games played",
+    "es": "Partidas jugadas"
+  },
+  "Privacidade_Revogado": {
+    "pt-BR": "retirado em {0}",
+    "en": "withdrawn on {0}",
+    "es": "retirado el {0}"
+  },
+  "Privacidade_RevogarAviso": {
+    "pt-BR": "Os termos e a política de privacidade são essenciais: retirar o consentimento encerra a sua conta.",
+    "en": "The terms and privacy policy are essential: withdrawing consent closes your account.",
+    "es": "Los términos y la política de privacidad son esenciales: retirar el consentimiento cierra tu cuenta."
+  },
+  "Privacidade_RevogarBotao": {
+    "pt-BR": "Retirar consentimento e encerrar a conta",
+    "en": "Withdraw consent and close the account",
+    "es": "Retirar consentimiento y cerrar la cuenta"
+  },
+  "Privacidade_RevogarTitulo": {
+    "pt-BR": "Retirar consentimento",
+    "en": "Withdraw consent",
+    "es": "Retirar consentimiento"
+  },
+  "Privacidade_SenhaAtual": {
+    "pt-BR": "Senha atual",
+    "en": "Current password",
+    "es": "Contraseña actual"
+  },
+  "Privacidade_SolicitacaoRegistrada": {
+    "pt-BR": "Pedido registrado. Respondemos em até 15 dias.",
+    "en": "Request recorded. We answer within 15 days.",
+    "es": "Solicitud registrada. Respondemos en un máximo de 15 días."
+  },
+  "Privacidade_SolicitarAcesso": {
+    "pt-BR": "Pedir acesso aos meus dados",
+    "en": "Request access to my data",
+    "es": "Pedir acceso a mis datos"
+  },
+  "Privacidade_SolicitarCorrecao": {
+    "pt-BR": "Pedir correção dos meus dados",
+    "en": "Request correction of my data",
+    "es": "Pedir corrección de mis datos"
+  },
+  "Privacidade_SolicitarTitulo": {
+    "pt-BR": "Falar com o encarregado de dados",
+    "en": "Contact the data protection officer",
+    "es": "Hablar con el encargado de datos"
+  },
+  "Privacidade_Titulo": {
+    "pt-BR": "Privacidade e dados",
+    "en": "Privacy and data",
+    "es": "Privacidad y datos"
+  },
+  "Privacidade_UltimoAcesso": {
+    "pt-BR": "Último acesso",
+    "en": "Last access",
+    "es": "Último acceso"
+  },
+  "Privacidade_Vigente": {
+    "pt-BR": "vigente desde {0}",
+    "en": "in force since {0}",
+    "es": "vigente desde {0}"
+  },
+  "Regras_Indice": {
+    "pt-BR": "Índice das regras",
+    "en": "Rules index",
+    "es": "Índice de las reglas"
+  },
+  "Regras_Resumo1": {
+    "pt-BR": "3 a 10 jogadores, 20 fichas cada; 3 cartas por mão e 3 rodadas.",
+    "en": "3 to 10 players, 20 chips each; 3 cards per hand and 3 rounds.",
+    "es": "3 a 10 jugadores, 20 fichas cada uno; 3 cartas por mano y 3 rondas."
+  },
+  "Regras_Resumo2": {
+    "pt-BR": "Ordem das cartas: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4. A mania vence os outros naipes.",
+    "en": "Card order: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4. The trump suit beats the others.",
+    "es": "Orden de las cartas: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4. El triunfo vence a los otros palos."
+  },
+  "Regras_Resumo3": {
+    "pt-BR": "Só o distribuidor aposta 3 fichas; cada rodada vale o montante ÷ 3.",
+    "en": "Only the dealer puts in 3 chips; each round is worth the pot ÷ 3.",
+    "es": "Solo el repartidor apuesta 3 fichas; cada ronda vale el bote ÷ 3."
+  },
+  "Regras_Resumo4": {
+    "pt-BR": "Cada um fica, corre ou pega um baú. Quem tem o naipe aberto precisa seguir o naipe.",
+    "en": "Each player stays, folds or takes a chest. Whoever holds the opened suit must follow it.",
+    "es": "Cada uno se queda, corre o toma un cofre. Quien tiene el palo abierto debe seguirlo."
+  },
+  "Regras_Resumo5": {
+    "pt-BR": "20 s para decidir e 45 s para jogar; passou do tempo, o jogo joga por você.",
+    "en": "20 s to decide and 45 s to play; if time runs out, the game plays for you.",
+    "es": "20 s para decidir y 45 s para jugar; si se acaba el tiempo, el juego juega por ti."
+  },
+  "Regras_Resumo6": {
+    "pt-BR": "Quem perde as 3 rodadas repõe o montante. Menos de 3 fichas: fora da partida.",
+    "en": "Whoever loses all 3 rounds puts the pot back. Fewer than 3 chips: out of the game.",
+    "es": "Quien pierde las 3 rondas repone el bote. Menos de 3 fichas: fuera de la partida."
+  },
+  "Regras_ResumoTitulo": {
+    "pt-BR": "Resumo rápido",
+    "en": "Quick summary",
+    "es": "Resumen rápido"
+  },
+  "Regras_Sec01_P1": {
+    "pt-BR": "Os jogadores disputam fichas em mãos de três rodadas. Cada rodada vencida rende uma parte do montante da mesa.",
+    "en": "Players compete for chips in hands of three rounds. Each round won earns a share of the pot on the table.",
+    "es": "Los jugadores compiten por fichas en manos de tres rondas. Cada ronda ganada da una parte del bote de la mesa."
+  },
+  "Regras_Sec01_P2": {
+    "pt-BR": "Não há vencedor final: a partida continua até restarem menos de 3 jogadores, e o ranking é por fichas.",
+    "en": "There is no final winner: the game goes on until fewer than 3 players remain, and the ranking is by chips.",
+    "es": "No hay ganador final: la partida continúa hasta que queden menos de 3 jugadores, y el ranking es por fichas."
+  },
+  "Regras_Sec01_Titulo": {
+    "pt-BR": "Objetivo",
+    "en": "Goal",
+    "es": "Objetivo"
+  },
+  "Regras_Sec02_P1": {
+    "pt-BR": "O baralho tem 48 cartas: A, 2, 3, 4, 5, 6, 7, 8, 9, J, Q e K nos quatro naipes (copas, ouros, espadas e paus).",
+    "en": "The deck has 48 cards: A, 2, 3, 4, 5, 6, 7, 8, 9, J, Q and K in the four suits (hearts, diamonds, spades and clubs).",
+    "es": "La baraja tiene 48 cartas: A, 2, 3, 4, 5, 6, 7, 8, 9, J, Q y K en los cuatro palos (corazones, diamantes, picas y tréboles)."
+  },
+  "Regras_Sec02_P2": {
+    "pt-BR": "Da mais forte para a mais fraca: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4.",
+    "en": "From strongest to weakest: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4.",
+    "es": "De la más fuerte a la más débil: A, 3, 2, K, Q, J, 9, 8, 7, 6, 5, 4."
+  },
+  "Regras_Sec02_Titulo": {
+    "pt-BR": "Cartas e força",
+    "en": "Cards and strength",
+    "es": "Cartas y fuerza"
+  },
+  "Regras_Sec03_P1": {
+    "pt-BR": "A cada mão uma carta é virada na mesa: o naipe dela é a mania daquela mão.",
+    "en": "Each hand one card is turned face up: its suit is the trump suit for that hand.",
+    "es": "En cada mano se voltea una carta: su palo es el triunfo de esa mano."
+  },
+  "Regras_Sec03_P2": {
+    "pt-BR": "Cartas do naipe de mania vencem as de outros naipes, mesmo com valor menor. Entre duas manias, vence a mais forte.",
+    "en": "Cards of the trump suit beat other suits, even with lower value. Between two trumps, the stronger wins.",
+    "es": "Las cartas del triunfo vencen a las de otros palos, aunque valgan menos. Entre dos triunfos, gana la más fuerte."
+  },
+  "Regras_Sec03_Titulo": {
+    "pt-BR": "Mania",
+    "en": "Trump suit",
+    "es": "Triunfo"
+  },
+  "Regras_Sec04_P1": {
+    "pt-BR": "Cada jogador começa com 20 fichas. Quem distribui coloca 3 fichas na mesa; esse é o montante da mão (mais o que ficou da mão anterior).",
+    "en": "Each player starts with 20 chips. The dealer puts 3 chips on the table; that is the hand's pot (plus what was left from the previous hand).",
+    "es": "Cada jugador empieza con 20 fichas. Quien reparte pone 3 fichas en la mesa; ese es el bote de la mano (más lo que quedó de la anterior)."
+  },
+  "Regras_Sec04_P2": {
+    "pt-BR": "Cada rodada vale o montante dividido por 3 e vai para quem a vencer. Montante 3: 1 ficha; 6: 2 fichas; 9: 3 fichas.",
+    "en": "Each round is worth the pot divided by 3 and goes to whoever wins it. Pot 3: 1 chip; 6: 2 chips; 9: 3 chips.",
+    "es": "Cada ronda vale el bote dividido por 3 y es para quien la gane. Bote 3: 1 ficha; 6: 2 fichas; 9: 3 fichas."
+  },
+  "Regras_Sec04_Titulo": {
+    "pt-BR": "Fichas e montante",
+    "en": "Chips and pot",
+    "es": "Fichas y bote"
+  },
+  "Regras_Sec05_P1": {
+    "pt-BR": "Os jogadores sentam em círculo e o jogo corre em sentido horário. Um assento é sorteado para as 12 h e o primeiro distribuidor também é sorteado.",
+    "en": "Players sit in a circle and play goes clockwise. A seat is drawn for 12 o'clock and the first dealer is also drawn.",
+    "es": "Los jugadores se sientan en círculo y el juego va en sentido horario. Se sortea el asiento de las 12 h y también el primer repartidor."
+  },
+  "Regras_Sec05_P2": {
+    "pt-BR": "Cada jogador recebe 3 cartas. Ao fim da mão todas as cartas voltam ao baralho e o distribuidor passa ao próximo, à esquerda.",
+    "en": "Each player gets 3 cards. At the end of the hand all cards go back to the deck and the deal passes to the next player on the left.",
+    "es": "Cada jugador recibe 3 cartas. Al final de la mano todas las cartas vuelven a la baraja y el reparto pasa al siguiente, a la izquierda."
+  },
+  "Regras_Sec05_Titulo": {
+    "pt-BR": "Distribuição",
+    "en": "Dealing",
+    "es": "Reparto"
+  },
+  "Regras_Sec06_P1": {
+    "pt-BR": "A decisão começa pelo jogador à esquerda do distribuidor, que decide por último. Cada um fica, corre ou pega um baú.",
+    "en": "The decision starts with the player to the dealer's left, who decides last. Each player stays, folds or takes a chest.",
+    "es": "La decisión empieza por el jugador a la izquierda del repartidor, que decide el último. Cada uno se queda, corre o toma un cofre."
+  },
+  "Regras_Sec06_P2": {
+    "pt-BR": "Só pode ficar quem tem fichas para cobrir o montante. Quem corre não perde nada, mas também não ganha.",
+    "en": "Only players with chips to cover the pot may stay. Whoever folds loses nothing, but cannot win either.",
+    "es": "Solo puede quedarse quien tiene fichas para cubrir el bote. Quien corre no pierde nada, pero tampoco gana."
+  },
+  "Regras_Sec06_P3": {
+    "pt-BR": "Se todos correm, o distribuidor leva o montante.",
+    "en": "If everyone folds, the dealer takes the pot.",
+    "es": "Si todos corren, el repartidor se lleva el bote."
+  },
+  "Regras_Sec06_P4": {
+    "pt-BR": "Se só um jogador fica, ele leva o montante inteiro na hora, sem jogar.",
+    "en": "If only one player stays, they take the whole pot right away, without playing.",
+    "es": "Si solo un jugador se queda, se lleva todo el bote al instante, sin jugar."
+  },
+  "Regras_Sec06_Titulo": {
+    "pt-BR": "Ficar ou correr",
+    "en": "Stay or fold",
+    "es": "Quedarse o correr"
+  },
+  "Regras_Sec07_P1": {
+    "pt-BR": "Depois de distribuir, dois baús com 3 cartas viradas para baixo ficam no centro da mesa.",
+    "en": "After dealing, two chests with 3 face-down cards sit in the middle of the table.",
+    "es": "Tras repartir, dos cofres con 3 cartas boca abajo quedan en el centro de la mesa."
+  },
+  "Regras_Sec07_P2": {
+    "pt-BR": "Pegar um baú é uma troca: você descarta sua mão e joga com as cartas do baú. Quem pega um baú é obrigado a ficar.",
+    "en": "Taking a chest is a swap: you discard your hand and play with the chest's cards. Whoever takes a chest must stay.",
+    "es": "Tomar un cofre es un cambio: descartas tu mano y juegas con las cartas del cofre. Quien toma un cofre está obligado a quedarse."
+  },
+  "Regras_Sec07_P3": {
+    "pt-BR": "Se o mesmo jogador pega o segundo baú, paga 3 fichas ao montante (cada rodada passa a valer 1 a mais) e joga com a mão do último baú que abriu.",
+    "en": "If the same player takes the second chest, they pay 3 chips into the pot (each round becomes worth 1 more) and play with the last chest they opened.",
+    "es": "Si el mismo jugador toma el segundo cofre, paga 3 fichas al bote (cada ronda pasa a valer 1 más) y juega con la mano del último cofre que abrió."
+  },
+  "Regras_Sec07_P4": {
+    "pt-BR": "Se outro jogador pega o segundo baú, ele só fica obrigado a ficar e não paga nada.",
+    "en": "If another player takes the second chest, they just must stay and pay nothing.",
+    "es": "Si otro jugador toma el segundo cofre, solo queda obligado a quedarse y no paga nada."
+  },
+  "Regras_Sec07_P5": {
+    "pt-BR": "Só pega baú quem cobre o montante; o segundo baú só é permitido se quem paga e todos que já ficaram ainda cobrem o novo montante.",
+    "en": "Only players who cover the pot may take a chest; the second chest is allowed only if the payer and everyone who already stayed can still cover the new pot.",
+    "es": "Solo toma cofre quien cubre el bote; el segundo cofre solo se permite si quien paga y todos los que ya se quedaron aún cubren el nuevo bote."
+  },
+  "Regras_Sec07_Titulo": {
+    "pt-BR": "Os baús",
+    "en": "The chests",
+    "es": "Los cofres"
+  },
+  "Regras_Sec08_P1": {
+    "pt-BR": "A primeira rodada é aberta pelo primeiro que ficou, à esquerda do distribuidor. As seguintes são abertas por quem venceu a anterior.",
+    "en": "The first round is opened by the first player who stayed, to the dealer's left. The next ones are opened by the previous winner.",
+    "es": "La primera ronda la abre el primero que se quedó, a la izquierda del repartidor. Las siguientes las abre quien ganó la anterior."
+  },
+  "Regras_Sec08_P2": {
+    "pt-BR": "O naipe da carta de abertura é o naipe a seguir: quem tem carta dele só pode jogar carta dele. Quem não tem joga qualquer carta.",
+    "en": "The suit of the opening card is the suit to follow: whoever holds a card of it must play one. Whoever has none plays any card.",
+    "es": "El palo de la carta de apertura es el palo a seguir: quien tiene carta de él solo puede jugar de él. Quien no tiene juega cualquiera."
+  },
+  "Regras_Sec08_P3": {
+    "pt-BR": "Vence a maior carta de mania da mesa; sem mania, a maior do naipe aberto.",
+    "en": "The highest trump on the table wins; with no trump, the highest of the opened suit.",
+    "es": "Gana el triunfo más alto de la mesa; sin triunfo, la más alta del palo abierto."
+  },
+  "Regras_Sec08_P4": {
+    "pt-BR": "Não existe empate: são três rodadas e uma carta sempre vence.",
+    "en": "There are no ties: there are three rounds and one card always wins.",
+    "es": "No hay empates: son tres rondas y siempre una carta gana."
+  },
+  "Regras_Sec08_Titulo": {
+    "pt-BR": "As três rodadas",
+    "en": "The three rounds",
+    "es": "Las tres rondas"
+  },
+  "Regras_Sec09_P1": {
+    "pt-BR": "Quem ficou e perdeu as 3 rodadas repõe na mesa o montante inteiro, com as próprias fichas.",
+    "en": "Whoever stayed and lost all 3 rounds puts the whole pot back on the table, with their own chips.",
+    "es": "Quien se quedó y perdió las 3 rondas repone en la mesa el bote entero, con sus propias fichas."
+  },
+  "Regras_Sec09_P2": {
+    "pt-BR": "Essas fichas ficam na mesa e se somam ao montante da mão seguinte.",
+    "en": "Those chips stay on the table and add to the next hand's pot.",
+    "es": "Esas fichas quedan en la mesa y se suman al bote de la mano siguiente."
+  },
+  "Regras_Sec09_Titulo": {
+    "pt-BR": "Reposição",
+    "en": "Putting the pot back",
+    "es": "Reposición"
+  },
+  "Regras_Sec10_P1": {
+    "pt-BR": "Cada jogador tem 20 segundos para decidir. Se o tempo acabar, corre automaticamente (ou segue com a mão atual, se já pegou um baú).",
+    "en": "Each player has 20 seconds to decide. If time runs out, they fold automatically (or continue with the current hand if they already took a chest).",
+    "es": "Cada jugador tiene 20 segundos para decidir. Si se acaba el tiempo, corre automáticamente (o sigue con la mano actual si ya tomó un cofre)."
+  },
+  "Regras_Sec10_P2": {
+    "pt-BR": "Para jogar a carta são 45 segundos. Passou do tempo, o jogo joga por você a carta mais fraca permitida.",
+    "en": "To play a card there are 45 seconds. If time runs out, the game plays your weakest allowed card.",
+    "es": "Para jugar la carta hay 45 segundos. Si se acaba el tiempo, el juego juega por ti la carta más débil permitida."
+  },
+  "Regras_Sec10_P3": {
+    "pt-BR": "Essa carta entra virada para baixo e só é revelada quando a rodada termina.",
+    "en": "That card is played face down and is only revealed when the round ends.",
+    "es": "Esa carta entra boca abajo y solo se revela cuando termina la ronda."
+  },
+  "Regras_Sec10_P4": {
+    "pt-BR": "Quem estoura o tempo nas 3 rodadas da mesma mão é eliminado por inatividade ao fim da mão.",
+    "en": "Whoever runs out of time in all 3 rounds of the same hand is eliminated for inactivity at the end of the hand.",
+    "es": "Quien agota el tiempo en las 3 rondas de la misma mano es eliminado por inactividad al final de la mano."
+  },
+  "Regras_Sec10_Titulo": {
+    "pt-BR": "Tempo",
+    "en": "Time",
+    "es": "Tiempo"
+  },
+  "Regras_Sec11_P1": {
+    "pt-BR": "Quem fica com menos de 3 fichas sai da partida. Cada jogador pode desistir quando quiser, exceto o próximo distribuidor.",
+    "en": "Whoever has fewer than 3 chips leaves the game. Any player may give up at any time, except the next dealer.",
+    "es": "Quien se queda con menos de 3 fichas sale de la partida. Cada jugador puede retirarse cuando quiera, salvo el próximo repartidor."
+  },
+  "Regras_Sec11_P2": {
+    "pt-BR": "A partida termina quando restam menos de 3 jogadores. O ranking final é por fichas.",
+    "en": "The game ends when fewer than 3 players remain. The final ranking is by chips.",
+    "es": "La partida termina cuando quedan menos de 3 jugadores. El ranking final es por fichas."
+  },
+  "Regras_Sec11_Titulo": {
+    "pt-BR": "Fim da partida",
+    "en": "End of the game",
+    "es": "Fin de la partida"
+  },
+  "Regras_Sec12_P1": {
+    "pt-BR": "Com 3 jogadores: o distribuidor coloca 3 fichas (montante 3). Ana fica, Bia corre e o distribuidor fica.",
+    "en": "With 3 players: the dealer puts in 3 chips (pot 3). Ana stays, Bia folds and the dealer stays.",
+    "es": "Con 3 jugadores: el repartidor pone 3 fichas (bote 3). Ana se queda, Bia corre y el repartidor se queda."
+  },
+  "Regras_Sec12_P2": {
+    "pt-BR": "Ana abre a rodada 1 com um Ás de paus e o distribuidor tem paus: precisa seguir. Ana vence, recebe 1 ficha e abre a rodada 2.",
+    "en": "Ana opens round 1 with an ace of clubs and the dealer holds clubs: must follow. Ana wins, gets 1 chip and opens round 2.",
+    "es": "Ana abre la ronda 1 con un As de tréboles y el repartidor tiene tréboles: debe seguir. Ana gana, recibe 1 ficha y abre la ronda 2."
+  },
+  "Regras_Sec12_P3": {
+    "pt-BR": "Se o distribuidor perder as 3 rodadas, repõe 3 fichas e a próxima mão começa com montante 6. Com baú, a troca de mão muda o jogo.",
+    "en": "If the dealer loses all 3 rounds, they put back 3 chips and the next hand starts with a pot of 6. With a chest, swapping hands changes the game.",
+    "es": "Si el repartidor pierde las 3 rondas, repone 3 fichas y la próxima mano empieza con bote 6. Con cofre, el cambio de mano cambia el juego."
+  },
+  "Regras_Sec12_Titulo": {
+    "pt-BR": "Exemplo passo a passo",
+    "en": "Step-by-step example",
+    "es": "Ejemplo paso a paso"
+  },
+  "Regras_Titulo": {
+    "pt-BR": "Regras do jogo",
+    "en": "Game rules",
+    "es": "Reglas del juego"
+  },
+  "Regras_Versao": {
+    "pt-BR": "Versão das regras: 1.0 · atualizadas em 09/10/2026.",
+    "en": "Rules version: 1.0 · updated on 2026-10-09.",
+    "es": "Versión de las reglas: 1.0 · actualizadas el 09/10/2026."
+  },
+  "Regras_VoltarAoTopo": {
+    "pt-BR": "Voltar ao topo",
+    "en": "Back to top",
+    "es": "Volver arriba"
+  },
+  "Sala_AbrirMesa": {
+    "pt-BR": "Abrir uma mesa",
+    "en": "Open a table",
+    "es": "Abrir una mesa"
+  },
+  "Sala_AguardandoJogadores": {
+    "pt-BR": "Aguardando jogadores…",
+    "en": "Waiting for players…",
+    "es": "Esperando jugadores…"
+  },
+  "Sala_AguardeOCriador": {
+    "pt-BR": "Aguarde: quem criou a mesa inicia a partida.",
+    "en": "Please wait: the table creator starts the game.",
+    "es": "Espera: quien creó la mesa inicia la partida."
+  },
+  "Sala_Bot": {
+    "pt-BR": "bot",
+    "en": "bot",
+    "es": "bot"
+  },
+  "Sala_Codigo": {
+    "pt-BR": "Código da mesa",
+    "en": "Table code",
+    "es": "Código de la mesa"
+  },
+  "Sala_CodigoDaMesa": {
+    "pt-BR": "Código da mesa: {0}",
+    "en": "Table code: {0}",
+    "es": "Código de la mesa: {0}"
+  },
+  "Sala_Conectando": {
+    "pt-BR": "Conectando…",
+    "en": "Connecting…",
+    "es": "Conectando…"
+  },
+  "Sala_ConexaoPerdida": {
+    "pt-BR": "Conexão perdida. Tentando reconectar…",
+    "en": "Connection lost. Trying to reconnect…",
+    "es": "Conexión perdida. Intentando reconectar…"
+  },
+  "Sala_Criar": {
+    "pt-BR": "Abrir e sentar",
+    "en": "Open and sit",
+    "es": "Abrir y sentarse"
+  },
+  "Sala_EmPartida": {
+    "pt-BR": "Em partida",
+    "en": "Game in progress",
+    "es": "En partida"
+  },
+  "Sala_Entrar": {
+    "pt-BR": "Entrar",
+    "en": "Join",
+    "es": "Entrar"
+  },
+  "Sala_EntrarPorCodigo": {
+    "pt-BR": "Entrar por código",
+    "en": "Join by code",
+    "es": "Entrar por código"
+  },
+  "Sala_Iniciar": {
+    "pt-BR": "Iniciar partida",
+    "en": "Start game",
+    "es": "Iniciar partida"
+  },
+  "Sala_JogadoresDe": {
+    "pt-BR": "{0} de {1} jogadores",
+    "en": "{0} of {1} players",
+    "es": "{0} de {1} jugadores"
+  },
+  "Sala_Maximo": {
+    "pt-BR": "Máximo de jogadores",
+    "en": "Maximum players",
+    "es": "Máximo de jugadores"
+  },
+  "Sala_MesasAbertas": {
+    "pt-BR": "Mesas abertas",
+    "en": "Open tables",
+    "es": "Mesas abiertas"
+  },
+  "Sala_NenhumaMesa": {
+    "pt-BR": "Nenhuma mesa aberta no momento.",
+    "en": "No open tables right now.",
+    "es": "No hay mesas abiertas por ahora."
+  },
+  "Sala_Nome": {
+    "pt-BR": "Nome da mesa",
+    "en": "Table name",
+    "es": "Nombre de la mesa"
+  },
+  "Sala_PreencherComBots": {
+    "pt-BR": "Completar com bots",
+    "en": "Fill with bots",
+    "es": "Completar con bots"
+  },
+  "Sala_Privada": {
+    "pt-BR": "Mesa privada (só entra quem tem o código)",
+    "en": "Private table (code required)",
+    "es": "Mesa privada (solo con el código)"
+  },
+  "Sala_QuantosBots": {
+    "pt-BR": "Quantos bots?",
+    "en": "How many bots?",
+    "es": "¿Cuántos bots?"
+  },
+  "Sala_Sair": {
+    "pt-BR": "Sair da mesa",
+    "en": "Leave table",
+    "es": "Salir de la mesa"
+  },
+  "Sala_Sentar": {
+    "pt-BR": "Sentar",
+    "en": "Sit down",
+    "es": "Sentarse"
+  },
+  "Sala_SessaoSubstituida": {
+    "pt-BR": "Esta conta foi aberta em outra aba ou aparelho.",
+    "en": "This account was opened in another tab or device.",
+    "es": "Esta cuenta se abrió en otra pestaña o dispositivo."
+  },
+  "Sala_VoltarAoLobby": {
+    "pt-BR": "Voltar à taverna",
+    "en": "Back to the tavern",
+    "es": "Volver a la taberna"
+  },
+  "Sala_VoltarParaMinhaSala": {
+    "pt-BR": "Voltar para a minha mesa",
+    "en": "Back to my table",
+    "es": "Volver a mi mesa"
+  }
+}

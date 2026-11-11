@@ -1,0 +1,34 @@
+@{
+    var logado = User.Identity?.IsAuthenticated == true;
+    var titulo = ViewData["Titulo"] as string;
+}
+<!doctype html>
+<html lang="@T.Idioma">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@(string.IsNullOrEmpty(titulo) ? T[Textos.Comum_NomeDoJogo] : titulo + " · " + T[Textos.Comum_NomeDoJogo])</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="~/css/taverna.css" asp-append-version="true">
+</head>
+<body class="@(logado ? "com-menu" : "sem-menu")" data-idioma="@T.Idioma">
+  <a class="pular" href="#conteudo">@T[Textos.Comum_SaltarParaOConteudo]</a>
+  @if (logado)
+  {
+    <vc:menu-lateral />
+  }
+  <main id="conteudo" tabindex="-1">
+    @RenderBody()
+  </main>
+  <footer class="rodape-legal">
+    <a href="/legal/termos">@T[Textos.Comum_Termos]</a> ·
+    <a href="/legal/privacidade">@T[Textos.Comum_Privacidade]</a>
+    @if (!logado)
+    {
+      <partial name="_SeletorDeIdioma" />
+    }
+  </footer>
+  <script src="~/js/site.js" asp-append-version="true"></script>
+  @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

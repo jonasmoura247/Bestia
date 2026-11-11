@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-e-testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restaurar
+        run: dotnet restore
+      - name: Formatação
+        run: dotnet format --verify-no-changes --no-restore
+      - name: Compilar (avisos como erro)
+        run: dotnet build --no-restore -c Release
+      # Falha abaixo de 100% de linhas e ramos; inclui paridade de idiomas e auditoria de licenças.
+      - name: Testes com cobertura
+        run: dotnet test --no-build -c Release
+      - name: Vulnerabilidades conhecidas
+        run: dotnet list package --vulnerable --include-transitive

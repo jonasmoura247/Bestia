@@ -1,0 +1,18 @@
+@{
+    ViewData["Titulo"] = T[Textos.Conta_ConfirmarEmailTitulo];
+    var erro = ViewData["Erro"] as string;
+}
+<section class="tela-publica">
+  <div class="painel">
+    <h1>@T[Textos.Conta_ConfirmarEmailTitulo]</h1>
+    @if (erro is null)
+    {
+      <p class="aviso" role="status">@T[Textos.Conta_ConfirmarEmailOk]</p>
+    }
+    else
+    {
+      <p class="erro" role="alert">@T[erro]</p>
+    }
+    <p><a class="btn" href="/salas">@T[Textos.Menu_Salas]</a></p>
+  </div>
+</section>

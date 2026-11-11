@@ -1,0 +1,20 @@
+@model EsqueciSenhaModelo
+@{
+    ViewData["Titulo"] = T[Textos.Conta_EsqueciSenhaTitulo];
+    var enviado = ViewData["Enviado"] is true;
+}
+<section class="tela-publica">
+  <div class="painel">
+    <h1>@T[Textos.Conta_EsqueciSenhaTitulo]</h1>
+    @if (enviado)
+    {
+      <p class="aviso" role="status">@T[Textos.Conta_EsqueciSenhaEnviado]</p>
+    }
+    <form method="post" asp-controller="Conta" asp-action="EsqueciSenha">
+      <label for="email">@T[Textos.Conta_Email]</label>
+      <input id="email" name="Email" type="email" required autocomplete="email">
+      <button class="btn largo" type="submit">@T[Textos.Comum_Enviar]</button>
+    </form>
+    <p class="links"><a href="/conta/entrar">@T[Textos.Comum_Voltar]</a></p>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+@{
+    ViewData["Titulo"] = T[Textos.Menu_Configuracoes];
+}
+<section class="pagina">
+  <h1>@T[Textos.Menu_Configuracoes]</h1>
+  <div class="painel">
+    <h2>@T[Textos.Config_Idioma]</h2>
+    <partial name="_SeletorDeIdioma" />
+  </div>
+  <div class="painel">
+    <h2>@T[Textos.Config_Acessibilidade]</h2>
+    <label class="marcador"><input type="checkbox" id="reduzir-animacoes" data-preferencia="reduzir-animacoes"> @T[Textos.Config_ReduzirAnimacoes]</label>
+  </div>
+  <div class="painel">
+    <h2>@T[Textos.Config_Privacidade]</h2>
+    <p><a class="btn ghost" href="/configuracoes/privacidade">@T[Textos.Config_IrParaPrivacidade]</a></p>
+  </div>
+</section>

@@ -1,0 +1,79 @@
+@{
+    ViewData["Titulo"] = T[Textos.Menu_IniciarPartida];
+}
+<div id="mesa-app" class="tela-mesa" data-codigo="@ViewData["Codigo"]" data-idioma="@T.Idioma">
+  <div class="topo">
+    <div>
+      <b id="nome-sala"></b>
+      <div class="nota" id="info-mao"></div>
+    </div>
+    <div class="topo-acoes">
+      <button type="button" class="btn ghost" id="btn-regras" aria-haspopup="dialog" title="@T[Textos.Menu_Regras]">?</button>
+      <button type="button" class="btn ghost" id="btn-sair">@T[Textos.Sala_Sair]</button>
+    </div>
+  </div>
+
+  <div id="faixa" class="faixa" role="status" aria-live="polite">@T[Textos.Sala_Conectando]</div>
+
+  <section id="espera" hidden>
+    <div class="painel">
+      <h2>@T[Textos.Sala_AguardandoJogadores]</h2>
+      <p class="nota">@T.Obter(Textos.Sala_CodigoDaMesa, ViewData["Codigo"]!)</p>
+      <ul id="lista-espera" class="lista-espera"></ul>
+      <div id="controles-criador" hidden>
+        <label for="qtd-bots">@T[Textos.Sala_QuantosBots]</label>
+        <select id="qtd-bots">
+          @for (var n = 1; n <= 9; n++)
+          {
+            <option value="@n" selected="@(n == 2)">@n</option>
+          }
+        </select>
+        <button type="button" class="btn ghost" id="btn-bots">@T[Textos.Sala_PreencherComBots]</button>
+        <button type="button" class="btn" id="btn-iniciar">@T[Textos.Sala_Iniciar]</button>
+      </div>
+      <p class="nota" id="espera-aviso" hidden>@T[Textos.Sala_AguardeOCriador]</p>
+    </div>
+  </section>
+
+  <section id="partida" hidden>
+    <div class="mesa-area">
+      <div id="mesa" aria-label="@T[Textos.Comum_NomeDoJogo]"></div>
+      <details class="diario" id="diario">
+        <summary>@T[Textos.Partida_Diario]</summary>
+        <div class="log" id="log"></div>
+      </details>
+    </div>
+    <div class="bandeja" id="bandeja">
+      <div class="acoes" id="acoes"></div>
+      <div class="mao" id="mao"></div>
+      <div class="bandeja-dir">
+        <button type="button" class="emo-btn" id="btn-emotes" aria-label="@T[Textos.Partida_Emotes]" title="@T[Textos.Partida_Emotes]">😀</button>
+        <div class="painel-emotes" id="painel-emotes"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fim" hidden>
+    <div class="painel">
+      <h2>@T[Textos.Partida_FimTitulo]</h2>
+      <p class="nota">@T[Textos.Partida_FimSub]</p>
+      <div id="classificacao" class="classificacao"></div>
+      <button type="button" class="btn largo" id="btn-lobby">@T[Textos.Sala_VoltarAoLobby]</button>
+    </div>
+  </section>
+
+  <dialog id="janela-regras" class="janela">
+    <div class="janela-topo">
+      <b>@T[Textos.Menu_Regras]</b>
+      <button type="button" class="btn ghost" id="btn-fechar-regras">@T[Textos.Partida_FecharRegras]</button>
+    </div>
+    <partial name="_ConteudoDasRegras" />
+  </dialog>
+
+  <div id="fx" aria-hidden="true"></div>
+</div>
+
+@section Scripts {
+  <script src="~/lib/signalr/signalr.min.js"></script>
+  <script src="~/js/mesa.js" asp-append-version="true"></script>
+}

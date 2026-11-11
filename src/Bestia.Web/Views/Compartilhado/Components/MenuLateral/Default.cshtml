@@ -1,0 +1,24 @@
+@model IReadOnlyList<Bestia.Web.Componentes.ItemDeMenu>
+<aside class="menu-lateral" id="menu-lateral" aria-label="@T[Textos.Comum_NomeDoJogo]">
+  <div class="menu-topo">
+    <a class="marca" href="/salas">@T[Textos.Comum_NomeDoJogo]</a>
+    <div class="menu-apelido">👤 @User.Identity!.Name</div>
+  </div>
+  <nav>
+    <ul>
+      @foreach (var item in Model)
+      {
+        <li><a href="@item.Url" class="@(item.Ativo ? "ativo" : "")" aria-current="@(item.Ativo ? "page" : null)"><span aria-hidden="true">@item.Icone</span> @T[item.Chave]</a></li>
+      }
+      <li>
+        <form method="post" action="/conta/sair">
+          <button type="submit" class="menu-sair"><span aria-hidden="true">🚪</span> @T[Textos.Menu_Sair]</button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+  <div class="menu-rodape">
+    <partial name="_SeletorDeIdioma" />
+  </div>
+</aside>
+<button type="button" class="menu-botao" data-alternar-menu aria-controls="menu-lateral" aria-label="@T[Textos.Menu_Abrir]">☰</button>

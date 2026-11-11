@@ -1,0 +1,46 @@
+@model EntrarModelo
+@inject Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider Esquemas
+@{
+    ViewData["Titulo"] = T[Textos.Conta_Entrar];
+    var aviso = ViewData["Aviso"] as string;
+    var erro = ViewData["Erro"] as string;
+    var temGoogle = await Esquemas.GetSchemeAsync("Google") is not null;
+}
+<section class="tela-publica">
+  <div class="logo">@T[Textos.Comum_NomeDoJogo]<small>@T[Textos.Comum_Slogan]</small></div>
+  <div class="painel">
+    <h1>@T[Textos.Conta_EntrarNaTaverna]</h1>
+    @if (aviso == "cadastro")
+    {
+      <p class="aviso" role="status">@T[Textos.Conta_CadastroEnviado]</p>
+    }
+    @if (aviso == "senha")
+    {
+      <p class="aviso" role="status">@T[Textos.Conta_RedefinirSenhaOk]</p>
+    }
+    @if (aviso == "excluida")
+    {
+      <p class="aviso" role="status">@T[Textos.Privacidade_ContaExcluida]</p>
+    }
+    @if (erro is not null)
+    {
+      <p class="erro" role="alert">@T[erro]</p>
+    }
+    <form method="post" asp-controller="Conta" asp-action="Entrar">
+      <input type="hidden" name="RetornoUrl" value="@Model.RetornoUrl">
+      <label for="email">@T[Textos.Conta_Email]</label>
+      <input id="email" name="Email" type="email" autocomplete="username" required value="@Model.Email">
+      <label for="senha">@T[Textos.Conta_Senha]</label>
+      <input id="senha" name="Senha" type="password" autocomplete="current-password" required>
+      <button class="btn largo" type="submit">@T[Textos.Conta_Entrar]</button>
+    </form>
+    @if (temGoogle)
+    {
+      <p><a class="btn ghost largo" href="/conta/google">@T[Textos.Conta_EntrarComGoogle]</a></p>
+    }
+    <p class="links">
+      <a href="/conta/esqueci-senha">@T[Textos.Conta_EsqueciSenha]</a> ·
+      <a href="/conta/criar">@T[Textos.Conta_NaoTenhoConta]</a>
+    </p>
+  </div>
+</section>

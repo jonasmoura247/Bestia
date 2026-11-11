@@ -1,0 +1,10 @@
+bin/
+obj/
+coverage.json
+.vs/
+*.user
+TestResults/
+# Vídeo e arquivos de divulgação: pesados e com música de terceiros (licença própria), não fazem parte do código.
+brag-output/
+# Segredos de produção nunca entram no repositório.
+*.env

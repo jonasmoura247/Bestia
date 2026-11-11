@@ -1,0 +1,35 @@
+@{
+    // Número de parágrafos de cada uma das 12 seções (chaves Regras_Sec01_P1, Regras_Sec01_P2...).
+    int[] paragrafos = [2, 2, 2, 2, 2, 4, 5, 4, 2, 4, 2, 3];
+}
+<article class="regras">
+  <section class="regras-resumo" aria-labelledby="regras-resumo-titulo">
+    <h2 id="regras-resumo-titulo">@T[Textos.Regras_ResumoTitulo]</h2>
+    <ul>
+      @for (var i = 1; i <= 6; i++)
+      {
+        <li>@T[$"Regras_Resumo{i}"]</li>
+      }
+    </ul>
+  </section>
+  <nav class="regras-indice" aria-label="@T[Textos.Regras_Indice]">
+    <ol>
+      @for (var secao = 1; secao <= paragrafos.Length; secao++)
+      {
+        <li><a href="#regras-sec@(secao)">@T[$"Regras_Sec{secao:00}_Titulo"]</a></li>
+      }
+    </ol>
+  </nav>
+  @for (var secao = 1; secao <= paragrafos.Length; secao++)
+  {
+    <section id="regras-sec@(secao)" class="regras-secao">
+      <h3>@secao. @T[$"Regras_Sec{secao:00}_Titulo"]</h3>
+      @for (var p = 1; p <= paragrafos[secao - 1]; p++)
+      {
+        <p>@T[$"Regras_Sec{secao:00}_P{p}"]</p>
+      }
+    </section>
+  }
+  <p class="nota">@T[Textos.Regras_Versao]</p>
+  <p><a href="#conteudo">@T[Textos.Regras_VoltarAoTopo]</a></p>
+</article>

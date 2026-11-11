@@ -1,0 +1,76 @@
+@model LobbyModelo
+@{
+    ViewData["Titulo"] = T[Textos.Menu_Salas];
+}
+<section class="pagina">
+  <h1>@T[Textos.Menu_Salas]</h1>
+  @if (Model.Erro is not null)
+  {
+    <p class="erro" role="alert">@T[Model.Erro]</p>
+  }
+  @if (!Model.EmailConfirmado)
+  {
+    <p class="aviso" role="status">@T[Textos.Conta_ConfirmarEmailAviso]</p>
+  }
+  @if (Model.CodigoDaMinhaSala is not null)
+  {
+    <p><a class="btn" href="/salas/@Model.CodigoDaMinhaSala">@T[Textos.Sala_VoltarParaMinhaSala]</a></p>
+  }
+
+  <div class="painel" id="lista">
+    <h2>@T[Textos.Sala_MesasAbertas]</h2>
+    <div id="salas-abertas" data-url="/salas/lista" data-sentar="@T[Textos.Sala_Sentar]" data-em-partida="@T[Textos.Sala_EmPartida]" data-vazio="@T[Textos.Sala_NenhumaMesa]" data-jogadores="@T[Textos.Sala_JogadoresDe]">
+      @if (Model.Salas.Count == 0)
+      {
+        <p class="nota">@T[Textos.Sala_NenhumaMesa]</p>
+      }
+      @foreach (var sala in Model.Salas)
+      {
+        <div class="sala-item">
+          <div><b>@sala.Nome</b><span class="nota">@T.Obter(Textos.Sala_JogadoresDe, sala.Jogadores, sala.Maximo)</span></div>
+          @if (sala.EmPartida)
+          {
+            <span class="nota">@T[Textos.Sala_EmPartida]</span>
+          }
+          else
+          {
+            <form method="post" asp-controller="Salas" asp-action="Entrar">
+              <input type="hidden" name="Codigo" value="@sala.Codigo">
+              <button class="btn" type="submit">@T[Textos.Sala_Sentar]</button>
+            </form>
+          }
+        </div>
+      }
+    </div>
+  </div>
+
+  <div class="painel" id="criar">
+    <h2>@T[Textos.Sala_AbrirMesa]</h2>
+    <form method="post" asp-controller="Salas" asp-action="Criar">
+      <label for="nome">@T[Textos.Sala_Nome]</label>
+      <input id="nome" name="Nome" maxlength="30" required>
+      <label for="maximo">@T[Textos.Sala_Maximo]</label>
+      <select id="maximo" name="Maximo">
+        @for (var n = 3; n <= 10; n++)
+        {
+          <option value="@n" selected="@(n == 6)">@n</option>
+        }
+      </select>
+      <label class="marcador"><input type="checkbox" name="Privada" value="true"> @T[Textos.Sala_Privada]</label>
+      <button class="btn largo" type="submit">@T[Textos.Sala_Criar]</button>
+    </form>
+  </div>
+
+  <div class="painel">
+    <h2>@T[Textos.Sala_EntrarPorCodigo]</h2>
+    <form method="post" asp-controller="Salas" asp-action="Entrar">
+      <label for="codigo">@T[Textos.Sala_Codigo]</label>
+      <input id="codigo" name="Codigo" maxlength="6" required autocomplete="off">
+      <button class="btn largo" type="submit">@T[Textos.Sala_Entrar]</button>
+    </form>
+  </div>
+</section>
+
+@section Scripts {
+  <script src="~/js/lobby.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,21 @@
+@model RedefinirSenhaModelo
+@{
+    ViewData["Titulo"] = T[Textos.Conta_RedefinirSenhaTitulo];
+    var erro = ViewData["Erro"] as string;
+}
+<section class="tela-publica">
+  <div class="painel">
+    <h1>@T[Textos.Conta_RedefinirSenhaTitulo]</h1>
+    @if (erro is not null)
+    {
+      <p class="erro" role="alert">@T[erro]</p>
+    }
+    <form method="post" asp-controller="Conta" asp-action="RedefinirSenha">
+      <input type="hidden" name="Token" value="@Model.Token">
+      <label for="nova">@T[Textos.Conta_NovaSenha]</label>
+      <input id="nova" name="NovaSenha" type="password" minlength="10" required autocomplete="new-password">
+      <p class="nota">@T[Textos.Conta_SenhaDica]</p>
+      <button class="btn largo" type="submit">@T[Textos.Comum_Salvar]</button>
+    </form>
+  </div>
+</section>

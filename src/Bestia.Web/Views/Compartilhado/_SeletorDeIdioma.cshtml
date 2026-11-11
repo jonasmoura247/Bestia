@@ -1,0 +1,11 @@
+<form method="post" action="/conta/idioma" class="seletor-idioma">
+  <input type="hidden" name="retornoUrl" value="@(Context.Request.Path + Context.Request.QueryString)">
+  <label for="idioma-@Guid.NewGuid().ToString("N")" class="sr-only">@T[Textos.Comum_Idioma]</label>
+  <select name="idioma" data-auto-enviar aria-label="@T[Textos.Comum_Idioma]">
+    @foreach (var idioma in Idiomas.Suportados)
+    {
+      <option value="@idioma" selected="@(idioma == T.Idioma)">@(idioma == "pt-BR" ? "Português" : idioma == "en" ? "English" : "Español")</option>
+    }
+  </select>
+  <noscript><button type="submit" class="btn ghost">@T[Textos.Comum_Enviar]</button></noscript>
+</form>

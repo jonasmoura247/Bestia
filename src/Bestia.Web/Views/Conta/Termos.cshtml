@@ -1,0 +1,22 @@
+@model TermosGoogleModelo
+@{
+    ViewData["Titulo"] = T[Textos.Conta_TermosGoogleTitulo];
+    var erro = ViewData["Erro"] as string;
+}
+<section class="tela-publica">
+  <div class="painel">
+    <h1>@T[Textos.Conta_TermosGoogleTitulo]</h1>
+    <p>@T[Textos.Conta_TermosGoogleTexto]</p>
+    @if (erro is not null)
+    {
+      <p class="erro" role="alert">@T[erro]</p>
+    }
+    <form method="post" asp-controller="Conta" asp-action="Termos">
+      <label for="apelido">@T[Textos.Conta_Apelido]</label>
+      <input id="apelido" name="Apelido" maxlength="16" required value="@Model.Apelido">
+      <label class="marcador"><input type="checkbox" name="AceitoTermos" value="true" required> @T[Textos.Conta_AceitoTermos]</label>
+      <label class="marcador"><input type="checkbox" name="DeclaroMaioridade" value="true" required> @T[Textos.Conta_DeclaroMaioridade]</label>
+      <button class="btn largo" type="submit">@T[Textos.Comum_Enviar]</button>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+@{
+    ViewData["Titulo"] = T[Textos.Comum_Privacidade];
+}
+<section class="pagina">
+  <h1>@T[Textos.Legal_PrivacidadeTitulo]</h1>
+  <p class="aviso">@T[Textos.Legal_RevisaoJuridica]</p>
+  @for (var i = 1; i <= 7; i++)
+  {
+    <p>@T[$"Legal_Privacidade{i}"]</p>
+  }
+  <p class="nota">@T.Obter(Textos.Legal_Encarregado, ViewData["EncarregadoEmail"] ?? "—")</p>
+</section>

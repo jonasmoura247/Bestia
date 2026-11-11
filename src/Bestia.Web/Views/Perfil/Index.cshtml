@@ -1,0 +1,42 @@
+@model PerfilModelo
+@{
+    ViewData["Titulo"] = T[Textos.Menu_MeuPerfil];
+    var e = Model.Estatisticas;
+}
+<section class="pagina">
+  <h1>@T[Textos.Perfil_Titulo] — @Model.Apelido</h1>
+  <div class="estatisticas">
+    <div class="estatistica"><b>@e.Partidas</b><span>@T[Textos.Perfil_Partidas]</span></div>
+    <div class="estatistica"><b>@e.Vitorias</b><span>@T[Textos.Perfil_Vitorias]</span></div>
+    <div class="estatistica"><b>@e.FichasFinaisSomadas</b><span>@T[Textos.Perfil_Fichas]</span></div>
+  </div>
+  <div class="painel">
+    <h2>@T[Textos.Perfil_Historico]</h2>
+    @if (e.Recentes.Count == 0)
+    {
+      <p class="nota">@T[Textos.Perfil_SemPartidas]</p>
+    }
+    else
+    {
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>@T[Textos.Perfil_Data]</th>
+            <th>@T[Textos.Perfil_Colocacao]</th>
+            <th>@T[Textos.Perfil_Fichas]</th>
+          </tr>
+        </thead>
+        <tbody>
+          @foreach (var item in e.Recentes)
+          {
+            <tr>
+              <td>@item.Quando.ToString("g")</td>
+              <td>@(item.Interrompida ? T[Textos.Perfil_Interrompida] : T.Obter(Textos.Perfil_ColocacaoDe, item.Colocacao, item.Jogadores))</td>
+              <td>@item.FichasFinais</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    }
+  </div>
+</section>

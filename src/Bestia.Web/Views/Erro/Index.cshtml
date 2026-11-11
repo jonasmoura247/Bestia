@@ -1,0 +1,11 @@
+@{
+    ViewData["Titulo"] = T[Textos.Erro_Titulo];
+    var codigo = (int)(ViewData["Codigo"] ?? 500);
+}
+<section class="tela-publica">
+  <div class="painel">
+    <h1>@T[Textos.Erro_Titulo]</h1>
+    <p>@(codigo == 404 ? T[Textos.Erro_NaoEncontrada] : T[Textos.Erro_Generico])</p>
+    <p><a class="btn" href="/">@T[Textos.Comum_Voltar]</a></p>
+  </div>
+</section>

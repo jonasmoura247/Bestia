@@ -1,0 +1,103 @@
+@model Bestia.Aplicacao.Privacidade.MeusDados
+@{
+    ViewData["Titulo"] = T[Textos.Privacidade_Titulo];
+    var ok = ViewData["Ok"] as string;
+    var erro = ViewData["Erro"] as string;
+    var googleAtivo = ViewData["GoogleAtivo"] is true;
+    string Data(DateTime? valor) => valor is null ? T[Textos.Privacidade_Nunca] : valor.Value.ToString("g");
+}
+<section class="pagina">
+  <h1>@T[Textos.Privacidade_Titulo]</h1>
+
+  @if (ok == "apelido") { <p class="aviso" role="status">@T[Textos.Privacidade_ApelidoAlterado]</p> }
+  @if (ok == "email") { <p class="aviso" role="status">@T[Textos.Privacidade_EmailAlterado]</p> }
+  @if (ok == "solicitacao") { <p class="aviso" role="status">@T[Textos.Privacidade_SolicitacaoRegistrada]</p> }
+  @if (erro is not null) { <p class="erro" role="alert">@T[erro]</p> }
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_MeusDados]</h2>
+    <table class="tabela">
+      <tr><th>@T[Textos.Privacidade_Apelido]</th><td>@Model.Apelido</td></tr>
+      <tr><th>@T[Textos.Privacidade_Email]</th><td>@Model.Email</td></tr>
+      <tr><th>@T[Textos.Privacidade_Idioma]</th><td>@Model.Idioma</td></tr>
+      <tr><th>@T[Textos.Privacidade_CriadaEm]</th><td>@Data(Model.CriadoEm)</td></tr>
+      <tr><th>@T[Textos.Privacidade_EmailConfirmadoEm]</th><td>@Data(Model.EmailConfirmadoEm)</td></tr>
+      <tr><th>@T[Textos.Privacidade_UltimoAcesso]</th><td>@Data(Model.UltimoAcessoEm)</td></tr>
+      <tr><th>@T[Textos.Privacidade_Logins]</th><td>@(Model.Logins.Count == 0 ? T[Textos.Privacidade_Nunca] : string.Join(", ", Model.Logins))</td></tr>
+      <tr><th>@T[Textos.Privacidade_Partidas]</th><td>@Model.Partidas</td></tr>
+    </table>
+    <p><a class="btn" href="/configuracoes/privacidade/exportar">@T[Textos.Privacidade_BaixarMeusDados]</a></p>
+  </div>
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_AlterarApelido]</h2>
+    <form method="post" asp-controller="Privacidade" asp-action="Apelido">
+      <label for="novoApelido">@T[Textos.Privacidade_NovoApelido]</label>
+      <input id="novoApelido" name="novoApelido" maxlength="16" required>
+      <button class="btn largo" type="submit">@T[Textos.Comum_Salvar]</button>
+    </form>
+  </div>
+
+  @if (Model.TemSenha)
+  {
+    <div class="painel">
+      <h2>@T[Textos.Privacidade_AlterarEmail]</h2>
+      <form method="post" asp-controller="Privacidade" asp-action="Email">
+        <label for="novoEmail">@T[Textos.Privacidade_NovoEmail]</label>
+        <input id="novoEmail" name="novoEmail" type="email" required>
+        <label for="senhaEmail">@T[Textos.Privacidade_SenhaAtual]</label>
+        <input id="senhaEmail" name="senha" type="password" required autocomplete="current-password">
+        <button class="btn largo" type="submit">@T[Textos.Comum_Salvar]</button>
+      </form>
+    </div>
+  }
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_Consentimentos]</h2>
+    <ul>
+      @foreach (var consentimento in Model.Consentimentos)
+      {
+        <li>@consentimento.Documento @consentimento.Versao —
+          @(consentimento.RevogadoEm is null ? T.Obter(Textos.Privacidade_Vigente, consentimento.AceitoEm.ToString("g")) : T.Obter(Textos.Privacidade_Revogado, consentimento.RevogadoEm.Value.ToString("g")))</li>
+      }
+    </ul>
+  </div>
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_SolicitarTitulo]</h2>
+    <form method="post" asp-controller="Privacidade" asp-action="Solicitar">
+      <input type="hidden" name="tipo" value="Acesso">
+      <button class="btn ghost" type="submit">@T[Textos.Privacidade_SolicitarAcesso]</button>
+    </form>
+    <form method="post" asp-controller="Privacidade" asp-action="Solicitar">
+      <input type="hidden" name="tipo" value="Correcao">
+      <button class="btn ghost" type="submit">@T[Textos.Privacidade_SolicitarCorrecao]</button>
+    </form>
+  </div>
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_RevogarTitulo]</h2>
+    <p>@T[Textos.Privacidade_RevogarAviso]</p>
+    <form method="post" asp-controller="Privacidade" asp-action="Revogar">
+      <input type="hidden" name="documento" value="Termos">
+      <button class="btn red" type="submit">@T[Textos.Privacidade_RevogarBotao]</button>
+    </form>
+  </div>
+
+  <div class="painel">
+    <h2>@T[Textos.Privacidade_ExcluirTitulo]</h2>
+    <p>@T[Textos.Privacidade_ExcluirAviso]</p>
+    @if (Model.TemSenha)
+    {
+      <form method="post" asp-controller="Privacidade" asp-action="Excluir">
+        <label for="senhaExcluir">@T[Textos.Privacidade_SenhaAtual]</label>
+        <input id="senhaExcluir" name="senha" type="password" required autocomplete="current-password">
+        <button class="btn red largo" type="submit">@T[Textos.Privacidade_ExcluirBotao]</button>
+      </form>
+    }
+    else if (googleAtivo)
+    {
+      <a class="btn red" href="/configuracoes/privacidade/excluir-google">@T[Textos.Privacidade_ExcluirComGoogle]</a>
+    }
+  </div>
+</section>
