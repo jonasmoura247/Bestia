@@ -66,15 +66,17 @@ O plano técnico completo está em [`Bestia — Plano e Especificação Técnica
 Precisa do .NET 8 SDK e do Docker (para o SQL Server de desenvolvimento).
 
 ```powershell
-# 1. SQL Server de desenvolvimento
-docker run -d --name bestia-sql -e ACCEPT_EULA=Y -e "MSSQL_SA_PASSWORD=Bestia#2026Dev!" -p 14333:1433 mcr.microsoft.com/mssql/server:2022-latest
+# 1. SQL Server de desenvolvimento (escolha uma senha forte; ela não fica no repositório)
+$senha = "<escolha-uma-senha-forte>"
+docker run -d --name bestia-sql -e ACCEPT_EULA=Y -e "MSSQL_SA_PASSWORD=$senha" -p 14333:1433 mcr.microsoft.com/mssql/server:2022-latest
 
 # 2. Aplicação (aplica as migrações ao subir; os e-mails vão para o log, com o link de confirmação)
 $env:ASPNETCORE_ENVIRONMENT = "Development"
+$env:ConnectionStrings__Bestia = "Server=localhost,14333;Database=Bestia;User Id=sa;Password=$senha;TrustServerCertificate=True;Encrypt=True"
 dotnet run --project src/Bestia.Web --urls http://localhost:5099
 ```
 
-A senha acima é só a do contêiner local de desenvolvimento. Em desenvolvimento, sem chaves configuradas, a aplicação usa chaves fixas de **desenvolvimento**, nunca usadas em produção. A configuração de produção, o deploy e as rotinas diárias estão em [`docs/OPERACAO.md`](docs/OPERACAO.md).
+A senha é só a do contêiner local de desenvolvimento e vem da variável de ambiente `ConnectionStrings__Bestia`, a mesma que os testes de Web usam. Em desenvolvimento, sem chaves configuradas, a aplicação usa chaves fixas de **desenvolvimento**, nunca usadas em produção (fora do ambiente Development ela recusa subir sem as chaves reais). A configuração de produção, o deploy e as rotinas diárias estão em [`docs/OPERACAO.md`](docs/OPERACAO.md).
 
 ## Testes
 

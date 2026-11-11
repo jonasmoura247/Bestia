@@ -1,16 +1,44 @@
+# Endurecido (auditoria de segurança): token só de leitura, actions fixadas por SHA (a tag pode ser movida; o commit não),
+# checkout sem guardar credencial e SQL Server de teste com senha aleatória, gerada a cada execução.
 name: ci
 on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-e-testes:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DOTNET_NOLOGO: 1
+      DOTNET_CLI_UICULTURE: en-US
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4.3.1
         with:
           dotnet-version: 8.0.x
+      # Os testes de Web usam o banco da ConnectionStrings__Bestia; os de Integração sobem o próprio contêiner (Testcontainers).
+      - name: SQL Server dos testes (senha aleatória só desta execução)
+        run: |
+          SENHA="A1a-$(openssl rand -hex 16)"
+          echo "::add-mask::$SENHA"
+          docker run -d --name sql -e ACCEPT_EULA=Y -e "MSSQL_SA_PASSWORD=$SENHA" -p 14333:1433 mcr.microsoft.com/mssql/server:2022-latest
+          echo "ConnectionStrings__Bestia=Server=localhost,14333;Database=Bestia;User Id=sa;Password=$SENHA;TrustServerCertificate=True;Encrypt=True" >> "$GITHUB_ENV"
+          for i in $(seq 1 60); do
+            docker exec sql /opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P "$SENHA" -Q "SELECT 1" >/dev/null 2>&1 && exit 0
+            sleep 2
+          done
+          docker logs sql
+          exit 1
       - name: Restaurar
         run: dotnet restore
       - name: Formatação
